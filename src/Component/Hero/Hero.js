@@ -1,29 +1,18 @@
 import classes from "./Hero.module.css";
 import boutique from "../../Assets/Images/boutique.jpg";
+import { PRIMARY_COLOR } from "../../Constants/Colors";
 
 const Hero = (props) => {
-  let slideData = [
-    {
-      imgUrl: boutique,
-    },
-    {
-      imgUrl:
-        "https://images.unsplash.com/photo-1615931973323-b9d09faf88a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-    },
-  ];
-
-  const slides = slideData.map((data, i) => {
-    return (
-      <div className={classes.slide} key={i}>
-        <div className={classes.backdrop}></div>
-        <img src={data.imgUrl} alt="" />
-      </div>
-    );
-  });
   return (
-    <div className={classes.Hero}>
-      <div className={classes.slider}>{slides}</div>
-    </div>
+    <>
+      <div className={classes.buffer}></div>
+      <div
+        className={classes.Hero}
+        style={{
+          backgroundImage: `url(https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80)`,
+        }}
+      ></div>
+    </>
   );
 };
 

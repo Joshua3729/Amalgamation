@@ -24,7 +24,14 @@ const Navigation = ({ activeLink }) => {
           : classes.Navigation
       }
     >
-      <ul className={classes.nav_list}></ul>
+      <div className={classes.Navigation_innerWrapper}>
+        <div className={classes.Logo_container}>LOGO</div>
+        <ul className={classes.nav_list}>
+          <li className={classes.nav_itemWrapper}>Home</li>
+          <li className={classes.nav_itemWrapper}>About</li>
+          <li className={classes.nav_itemWrapper}>What we do?</li>
+        </ul>
+      </div>
     </div>,
     document.getElementById("nav-bar")
   );
