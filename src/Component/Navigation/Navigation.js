@@ -2,7 +2,7 @@ import classes from "./Navigation.module.css";
 import ReactDOM from "react-dom";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../../Assets/Images/Logo.jpeg";
 const Navigation = ({ activeLink }) => {
   const [scroll, setScroll] = useState(false);
 
@@ -25,7 +25,9 @@ const Navigation = ({ activeLink }) => {
       }
     >
       <div className={classes.Navigation_innerWrapper}>
-        <div className={classes.Logo_container}>LOGO</div>
+        <div className={classes.Logo_container}>
+          <img src={logo} />
+        </div>
         <ul className={classes.nav_list}>
           <li className={classes.nav_itemWrapper}>Home</li>
           <li className={classes.nav_itemWrapper}>About</li>

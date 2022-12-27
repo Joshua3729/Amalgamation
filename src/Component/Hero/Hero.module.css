@@ -21,5 +21,62 @@
 }
 .buffer {
   position: relative;
-  height: calc(53px + 60px);
+  height: 160px;
+}
+.CTA_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  z-index: 1000;
+}
+.CTA_innerWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* background-color: blueviolet; */
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.callToAction {
+  /* background-color: yellow; */
+}
+.textWrapper {
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+.heroHeader {
+  font-size: 40px;
+  font-weight: 400;
+}
+.heroHeader span {
+  font-weight: 700;
+}
+.Herotext {
+  font-size: 20px;
+}
+.CTA_btn {
+  border: none;
+  padding: 20px 30px;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #ed028b;
+  color: white;
+}
+.modelWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
