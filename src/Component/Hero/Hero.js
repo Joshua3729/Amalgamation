@@ -9,14 +9,17 @@ const Hero = (props) => {
       <div
         className={classes.Hero}
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80)`,
+          // backgroundImage: `url(https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80)`,
+          backgroundImage: `linear-gradient(rgba(200, 174, 255, 0.5),rgba(200, 174, 255, 0.7)),url(https://images.unsplash.com/photo-1586363129094-d7a38564fae1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)`,
         }}
       >
         <div className={classes.CTA_wrapper}>
           <div className={classes.CTA_innerWrapper}>
             <div
               className={classes.modelWrapper}
-              style={{ backgroundImage: `url(${model})` }}
+              style={{
+                backgroundImage: `url(${model})`,
+              }}
             ></div>
             <div className={classes.callToAction}>
               <div className={classes.textWrapper}>
