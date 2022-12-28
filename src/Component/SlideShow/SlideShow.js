@@ -49,9 +49,7 @@ const SlideShow = ({ tab, setTab, images }) => {
                   className={classes.heroHeader}
                   dangerouslySetInnerHTML={{ __html: slide.header }}
                 ></h1>
-                <p className={classes.Herotext}>
-                  With our all encompassing clothing range we've got you covered
-                </p>
+                <p className={classes.Herotext}>{slide.description}</p>
               </div>
               <button className={classes.CTA_btn}>Visit NM Boutique</button>
             </div>
