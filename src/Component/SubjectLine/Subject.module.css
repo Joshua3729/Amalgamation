@@ -1,0 +1,38 @@
+.SubjectComponent{
+
+    width: max-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.question{
+    font-size: 11rem;
+    text-shadow: 1px 1px 2px rgb(46,26,71), 0 0 10px red, 0 0 2px ;
+    color: rgba(237, 2, 139, 0.7);
+    
+   
+    width: fit-content;
+}
+
+.smallText{
+    font-size: 2rem;
+    position: relative;
+    bottom: 2rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(46,26,71), 0 0 10px red, 0 0 5px;
+    width: fit-content;
+    font-style: italic;
+    border:  1px solid rgba(255, 0, 0, 0.1);
+    background-color: rgb(46,26,71,.1);
+    backdrop-filter: blur(3px);
+    margin: 0px;
+    text-align: center;
+    margin-left: auto;
+}
+
+
+
+
