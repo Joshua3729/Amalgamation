@@ -64,6 +64,7 @@
 .navList{
     width: fit-content;
     list-style-type: none;
+    font-weight: 400;
 }
 .navList > div {
     width: fit-content;

@@ -43,9 +43,9 @@ const AboutUsSection1 = () => {
           <h2>COMPANY</h2>
         </div>
         <div className={classes.navList}>
-          <div>vision</div>
-          <div>contact us</div>
-          <div>contact</div>
+          <div>Mission</div>
+          <div>Founder</div>
+          <div>Contact us</div>
         </div>
       </div>
     </>
