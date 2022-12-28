@@ -35,7 +35,7 @@ const AboutUsSection1 = () => {
                 Discover more
               </Link>
             </span>
-            <AiOutlineRight size={24} />
+            <AiOutlineRight size={20} />
           </div>
         </div>
       </div>
