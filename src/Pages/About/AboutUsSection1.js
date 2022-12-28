@@ -5,16 +5,7 @@ import { AiOutlineRight } from 'react-icons/ai';
 import { Link } from "react-router-dom";
 
 const AboutUsSection1 = () => {
-  const [colorChange, setColorChange] = useState(false);
-  const [onPagesHover, setOnPagesHover] = useState(0);
-  const changeNavbarColor = () => {
-    if (window.scrollY >= 1) {
-      setColorChange(true);
-    } else {
-      setColorChange(false);
-    }
-  };
-  window.addEventListener("scroll", changeNavbarColor);
+ 
   return (
     <>
       <div className={classes.AboutUsSection1}>
