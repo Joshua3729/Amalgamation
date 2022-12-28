@@ -1,7 +1,14 @@
 .aboutUsWrapper{
     text-align: center;
 }
-
+.triangleButton{
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #ED028B;
+    cursor: pointer;
+    
+}
 
 /* SECTION 1 CSS */
 .AboutUsSection1{
