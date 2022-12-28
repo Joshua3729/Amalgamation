@@ -7,11 +7,24 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.question:hover{
+    overflow: visible;
+}
 
 .question{
-    font-size: 11rem;
-    text-shadow: 1px 1px 2px rgb(46,26,71), 0 0 10px red, 0 0 2px ;
-    color: rgba(237, 2, 139, 0.7);
+     font-size: 30px;
+    color:#FCFFE7;
+    font-weight: 700;
+    white-space: nowrap;
+ /* width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip; */
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
     
    
     width: fit-content;
