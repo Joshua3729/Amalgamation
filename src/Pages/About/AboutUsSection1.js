@@ -51,7 +51,8 @@ const AboutUsSection1 = () => {
                 .scrollIntoView({ block: "start", behavior: "smooth" });
             }}
           >
-            Mission
+            <span>Mission </span>
+            <AiOutlineRight size={10} />
           </div>
           <div
             onClick={() => {
@@ -60,7 +61,8 @@ const AboutUsSection1 = () => {
                 .scrollIntoView({ block: "start", behavior: "smooth" });
             }}
           >
-            Founder
+            <span>Founder </span>
+            <AiOutlineRight size={10} />
           </div>
           <div
             onClick={() => {
@@ -69,7 +71,8 @@ const AboutUsSection1 = () => {
                 .scrollIntoView({ block: "start", behavior: "smooth" });
             }}
           >
-            Contact us
+            <span>Contact us </span>
+            <AiOutlineRight size={10} />
           </div>
         </div>
       </div>
