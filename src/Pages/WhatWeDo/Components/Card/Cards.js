@@ -2,7 +2,11 @@ import React from 'react';
 import classes from './Cards.module.css';
 import CardItem from './CardItem';
 import CardItem2 from './CardItem2';
-import image1 from "../../Assets/Images/WhatWeDo1st.jpeg"
+import image1 from "../../../../Assets/Images/Clothing.jpg"
+import image2 from "../../../../Assets/Images/catering.jpg"
+import image3 from "../../../../Assets/Images/transport.webp"
+import image4 from "../../../../Assets/Images/couch.webp"
+
 
 function Cards() {
   return (
@@ -15,13 +19,13 @@ function Cards() {
              src={image1}
             />
             <CardItem
-            src={image1}
+            src={image2}
             />
                 <CardItem
-             src={image1}
+             src={image3}
             />
             <CardItem
-         src={image1}
+         src={image4}
             />
           </ul>
           <ul className={classes.cards__items}>
