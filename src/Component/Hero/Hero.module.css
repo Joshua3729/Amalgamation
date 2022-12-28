@@ -1,24 +1,13 @@
 .Hero {
   position: relative;
   width: 100%;
-  height: calc(100vh - 53px - 60px);
+  height: calc(100vh - 100px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-.Hero:after {
-  content: "";
-  position: absolute;
-  height: 130%;
-  width: 400px;
-  background: rgba(237, 2, 139, 0.7);
-  left: calc(80% - (300px + 5%));
-  transform: skew(-27deg, -8deg);
-  top: -15%;
-  transform-origin: left bottom;
-}
 .buffer {
   position: relative;
   height: 100px;
