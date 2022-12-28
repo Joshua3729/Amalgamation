@@ -1,0 +1,40 @@
+.aboutUsWrapper{
+    text-align: center;
+}
+
+
+/* SECTION 1 CSS */
+.AboutUsSection1{
+    height: 100vh;
+    background-image: url('../../Assets/Images/backgroundAboutUs.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.textWrapper{
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+    padding: 20px;
+}
+.textWrapper > h1 {
+    width: fit-content;
+    margin: 0px;
+    
+}
+.textWrapper > p {
+    text-align: start;
+    width: fit-content;
+    font-size: 20px;
+
+}
+.discoverMoreButton{
+    width: fit-content;
+    padding: 20px 50px;
+    font-weight: 600;
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+gap: 10px;
+}
