@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { PRIMARY_COLOR } from "../../Constants/Colors";
 import classes from "./About.module.css";
 import { AiOutlineRight } from 'react-icons/ai';
 import { Link } from "react-router-dom";
+
 const AboutUsSection1 = () => {
+  const [colorChange, setColorChange] = useState(false);
+  const [onPagesHover, setOnPagesHover] = useState(0);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 1) {
+      setColorChange(true);
+    } else {
+      setColorChange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
     <>
       <div className={classes.AboutUsSection1}>
@@ -39,13 +50,36 @@ const AboutUsSection1 = () => {
       </div>
       <div className={classes.innerNavWrapper}>
         <div>
-          
           <h2>COMPANY</h2>
         </div>
         <div className={classes.navList}>
-          <div>Mission</div>
-          <div>Founder</div>
-          <div>Contact us</div>
+          <div
+            onClick={() => {
+              document
+                .getElementById("mission")
+                .scrollIntoView({ block: "start", behavior: "smooth" });
+            }}
+          >
+            Mission
+          </div>
+          <div
+            onClick={() => {
+              document
+                .getElementById("founder")
+                .scrollIntoView({ block: "start", behavior: "smooth" });
+            }}
+          >
+            Founder
+          </div>
+          <div
+            onClick={() => {
+              document
+                .getElementById("contact")
+                .scrollIntoView({ block: "start", behavior: "smooth" });
+            }}
+          >
+            Contact us
+          </div>
         </div>
       </div>
     </>

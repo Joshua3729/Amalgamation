@@ -85,3 +85,22 @@
     bottom: 5px;
     
 }
+
+/* MISSION CSS */
+.missionWrapper{
+    padding-top: 20vh;
+    height: 100vh;
+    color: black;
+}
+/* FOUNDER CSS */
+.founderWrapper{
+    padding-top: 20vh;
+    height: 100vh;
+    color: black;
+}
+ /* CONTACT US CSS */
+ .contactUsWrapper{
+    padding-top: 20vh;
+    height: 100vh;
+    color: black;
+ }
