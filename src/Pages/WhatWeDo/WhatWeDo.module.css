@@ -1,11 +1,3 @@
-.WhatWeDo{
-  /* width: 100%;
-  margin: 0px;
-  padding: 0px; */
-}
-.cards_wrapper{
-  margin-bottom: 100px;
-}
 .section1Parent {
     height: 100vh;
     position: relative;
@@ -22,9 +14,7 @@
     background-position: center;
     animation-name: section1Animation;
     animation-duration: 2s;
-    /* style22 */
- 
   }
   .WWDsection1 {
-  height: auto;
-  }
+  width: 100%;
+}
