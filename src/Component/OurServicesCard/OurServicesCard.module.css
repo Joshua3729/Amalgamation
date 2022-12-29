@@ -1,0 +1,62 @@
+.ourServicesCard {
+  /* background-color: red; */
+  width: 100%;
+  height: 450px;
+}
+.textWrapper {
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  height: 60%;
+  border: 1px solid #cbcdce;
+  border-top: 0 solid #cbcdce;
+  border-bottom-left-radius: 10px;
+  box-sizing: border-box;
+  border-bottom-right-radius: 10px;
+  color: #6b6d6f;
+  padding: 30px;
+}
+.imgWrapper {
+  background-color: #cbcdce;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 40%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardHeader {
+  margin: 0;
+
+  color: #161919;
+  font-size: 24px;
+  font-family: Avenir;
+}
+.cardDescreption {
+  color: #6b6d6f;
+  font-size: 16px;
+  line-height: 24px;
+}
+.cardDescreption {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.readMore_link {
+  color: #0078a7;
+  text-decoration: none;
+}
+.readMore_link::after {
+  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAyOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTggMjgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMDc4YTc7c3Ryb2tlLXdpZHRoOjIuOTgwMTtzdHJva2UtbWl0ZXJsaW1pdDoxMCIgZD0ibTEuMDU5IDEuMTQ1IDE0LjU2IDEyLjg1My0xNC41NiAxMi44NTQiLz48L3N2Zz4=);
+  display: inline-block;
+  height: 11px;
+  margin-left: 10px;
+  width: 7px;
+}
+.linkWrapper {
+  text-align: right;
+}
+.ourServicesCard {
+  /* background-color: red; */
+  height: 450px;
+}

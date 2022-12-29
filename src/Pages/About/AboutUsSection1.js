@@ -26,7 +26,7 @@ const AboutUsSection1 = () => {
           >
             <span>
               <Link
-                to="whatWeDo"
+                to="../whatWeDo"
                 className={classes.link}
                 style={{
                   textDecoration: "none",
