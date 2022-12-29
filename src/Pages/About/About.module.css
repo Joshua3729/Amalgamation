@@ -115,6 +115,8 @@
 
 
 /* FOUNDER CSS */
+
+
 .founderWrapper{
     padding-bottom: 20vh;
     position: relative;
@@ -131,20 +133,22 @@
     
     margin-inline: auto;
     display: grid;
-    grid-template-columns: 40% auto;
-    justify-content: center;
-    gap: 50px;
-    padding: 50px;
+    grid-template-columns: auto  min-content;
+    text-align: start;
+    justify-content: end;
+    /* gap: 50px; */
+    gap: auto;
     box-shadow: 1px 1px 20px 1px rgba(237, 2, 139, 0.2);
 }
 .founderContainer> div{
     
 }
 .founderTextContainer{
-    width: 100%;
+    width: 80%;
     color: #1c2b33;
     font-size: 20px;
     text-align: start;
+    margin-inline: auto;
 }
 .founderImageContainer{
 width: 100%;
