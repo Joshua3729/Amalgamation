@@ -15,6 +15,60 @@
     animation-name: section1Animation;
     animation-duration: 2s;
   }
-  .WWDsection1 {
-  width: 100%;
+  .mainContainerSection3{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 90%;
+    background-color:#D6E4E5;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 100px;
+  
+   
+
+  }
+  .descriptionSection3{
+   
+  }
+  .firstImage{
+    width: 250px;
+    height: 200px;
+    box-shadow: #D6E4E5;
+    border-radius: 4%;
+    border-color: black;
+   
+  }
+  .imageContainer{
+    margin-left: 80px;
+    border-color: black;
+  }
+.section3Div{
+  width:600px;
+  
+  height:200px;
+  background:transparent;
+  margin-right: 80px;
+}
+.titleSection3{
+  text-align: center;
+}
+.discoverMoreButton{
+  width: fit-content;
+  padding: 10px 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 120px;
+}
+.link{
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  
 }
