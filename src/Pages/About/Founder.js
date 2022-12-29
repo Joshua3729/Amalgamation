@@ -6,7 +6,7 @@ import svgTop from "../../Assets/Images/waveT.svg";
 const Founder = () => {
   return (
     <div className={classes.founderWrapper}>
-      <div className={classes.founderTopSvg}></div>
+      {/* <div className={classes.founderTopSvg}></div> */}
       <div className={classes.founderInnerWrapper}>
         <div className={classes.founderSubjectContainer}>
           <div className={classes.founderSubjectLine}>Founder</div>
