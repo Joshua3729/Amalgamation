@@ -163,8 +163,8 @@ width: 100%;
 .founderSubjectLine{
     
     margin-inline: auto;
-    color: white;
-    text-shadow: 2px 2px 2px #1c2b33, 0 0 10px #1c2b33, 0 0 5px #1c2b33;
+    color: #ED028B;
+    text-shadow: 3px 3px 3px white, 0 0 10px white, 0 0 5px white;
     font-size: 100px;
     border: 2px solid rgba(85, 65, 72, 0.2);
     background-color: rgba(237, 2, 139, 1);
