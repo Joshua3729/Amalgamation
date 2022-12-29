@@ -1,5 +1,6 @@
 import Hero from "../../Component/Hero/Hero";
 import classes from "./LandingPage.module.css";
+import OurServices from "./OurServices/OurServices";
 import WhoAreWe from "./WhoAreWe/WhoAreWe";
 
 const LandingPage = (props) => {
@@ -7,6 +8,7 @@ const LandingPage = (props) => {
     <div className={classes.LandingPage}>
       <Hero />
       <WhoAreWe />
+      <OurServices />
     </div>
   );
 };
