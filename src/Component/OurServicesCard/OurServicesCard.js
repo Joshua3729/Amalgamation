@@ -14,7 +14,9 @@ const OurServicesCard = ({ image, header, description, link }) => {
         <div className={classes.cardHeader}>{header}</div>
         <div className={classes.cardDescreption}>{description}</div>
         <div className={classes.linkWrapper}>
-          <Link className={classes.readMore_link}>See More</Link>
+          <Link className={classes.readMore_link}>
+            See More <i className="fas fa-solid fa-chevron-right"></i>
+          </Link>
         </div>
       </div>
     </div>
