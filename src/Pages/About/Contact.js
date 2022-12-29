@@ -35,11 +35,11 @@ const Contact = () => {
             />
           </div>
           <div className={classes.parallelInputs}>
-            <input value={""}></input>
-            <input value={""}></input>
+            <input value={""} placeholder={"Name(s)"}></input>
+            <input value={""} placeholder={"Email"}></input>
           </div>
-          <input value={""} className={classes.loneInput}></input>
-          <textarea className={classes.textArea}></textarea>
+          <input value={""} className={classes.loneInput} placeholder={"Subject"}></input>
+          <textarea className={classes.textArea} placeholder={"Message"}></textarea>
           <button type='submit' className={classes.buttonSubmit}>Submit</button>
         </form>
       </div>
