@@ -38,11 +38,26 @@
 }
 .companyImg {
   /* background-color: #000e25; */
-  width: 500px;
-  height: 300px;
-
-  margin-top: 20px;
+  width: 400px;
+  float: left;
+  margin-right: 20px;
 }
 .companyImg img {
   width: 100%;
+}
+.whoAreWe {
+  text-align: left;
+  margin: 0;
+  color: #1c2b33;
+  line-height: 24px;
+}
+.whoWeAreHeader {
+  font-weight: 500;
+  color: #1c2b33;
+}
+.whoWeAreHeader span {
+  font-weight: 700;
+}
+.textWrapper {
+  width: 75%;
 }
