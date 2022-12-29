@@ -1,9 +1,11 @@
-import React from 'react'
+
 import Subject from "../../Component/SubjectLine/Subject";
 import WhatWeDoImg from "../../Assets/Images/WhatWeDo3rd.jpeg";
-import PageBanner from "./Components/SVGComponent/PageBanner"
 import classes from "./WhatWeDo.module.css";
-
+import React, { useState } from "react";
+import { PRIMARY_COLOR } from "../../Constants/Colors";
+import { AiOutlineRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import "../../App.css";
 
 const WhatWeDoSection1 = () => {
@@ -19,15 +21,33 @@ const WhatWeDoSection1 = () => {
 
         
     <div className={classes.firstSection}>
-    {/* <PageBanner />
-
-<p className={classes.aboutUsText}>
- <h1>We Offers The Best Variety Of Product To Our Clients </h1>
-</p> */}
+  
    
         <Subject Subject="We Offers The Best Variety Of Product To Our Clients" />
+        <div
+            className={classes.discoverMoreButton}
+            style={{
+              backgroundColor: PRIMARY_COLOR,
+              cursor: "pointer",
+            }}
+          >
+            <span>
+              <Link
+                to="../whatWeDo"
+                className={classes.link}
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Discover more
+              </Link>
+            </span>
+            <AiOutlineRight size={20} />
+          </div>
     </div>
+   
     </div>
+  
     </>
   );
 }
