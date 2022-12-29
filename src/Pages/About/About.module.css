@@ -95,16 +95,45 @@
 
 /* MISSION CSS */
 .missionWrapper{
-    padding-top: 20vh;
-    height: 100vh;
-    color: black;
+    padding-block: 20vh;
+    color: #1c2b33;
+    background-color: #554148;
 }
+.missionContainer{
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+
+}
+.missionContainer > p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+}
+
+
+
 /* FOUNDER CSS */
 .founderWrapper{
-    padding-top: 20vh;
+    padding-block: 20vh;
     height: 100vh;
-    color: black;
+    color: white;
+    
 }
+.founderContainer{
+    border: 2px solid #ED028B;
+    width: 80%;
+    margin-inline: auto;
+    background-color: rgba(237, 2, 139, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+
+
+
+
  /* CONTACT US CSS */
  .contactUsWrapper{
     padding-top: 20vh;
