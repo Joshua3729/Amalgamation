@@ -1,7 +1,14 @@
 .aboutUsWrapper{
     text-align: center;
 }
-
+.triangleButton{
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #ED028B;
+    cursor: pointer;
+    
+}
 
 /* SECTION 1 CSS */
 .AboutUsSection1{
@@ -64,6 +71,7 @@
 .navList{
     width: fit-content;
     list-style-type: none;
+    font-weight: 400;
 }
 .navList > div {
     width: fit-content;
@@ -84,3 +92,112 @@
     bottom: 5px;
     
 }
+
+/* MISSION CSS */
+.missionWrapper{
+    padding-block: 20vh;
+    color: #1c2b33;
+    background-color: #554148;
+}
+.missionContainer{
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+.missionContainer > p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+}
+
+
+
+/* FOUNDER CSS */
+
+
+.founderWrapper{
+    padding-block: 20vh;
+    position: relative;
+    color: white;
+    
+    
+}
+.founderInnerWrapper{
+    width: 80%;
+    margin-inline: auto;
+    
+}
+.founderContainer{
+    
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: auto  min-content;
+    text-align: start;
+    justify-content: end;
+    /* gap: 50px; */
+    gap: auto;
+    box-shadow: 1px 1px 20px 1px rgba(237, 2, 139, 0.2);
+}
+.founderContainer> div{
+    
+}
+.founderTextContainer{
+    width: 80%;
+    color: #1c2b33;
+    font-size: 20px;
+    text-align: start;
+    margin-inline: auto;
+}
+.founderImageContainer{
+width: 100%;
+}
+.founderImage{
+    height: 550px;
+}
+
+.founderSubjectContainer{
+    position: relative;
+}
+.founderSubjectLine{
+    
+    margin-inline: auto;
+    color: white;
+    text-shadow: 2px 2px 2px #1c2b33, 0 0 10px #1c2b33, 0 0 5px #1c2b33;
+    font-size: 100px;
+    border: 2px solid rgba(85, 65, 72, 0.2);
+    background-color: rgba(237, 2, 139, 1);
+    backdrop-filter: blur(5px);
+}
+.founderMiniSubject{
+    color: #1c2b33;
+    font-weight: bold;
+    right: 25%;
+    position: absolute;
+    bottom: 10%;
+    font-size: 30px;
+}
+.founderBottomSvg{
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    
+    bottom: 3%;
+}
+.founderTopSvg{
+    width: 100%;
+    height: 20vh;
+    
+    background: linear-gradient(#ED028B,rgba(237, 2, 139, 0.3),white);
+    margin-bottom: 50px;
+  
+}
+
+
+ /* CONTACT US CSS */
+ .contactUsWrapper{
+    padding-top: 20vh;
+    height: 100vh;
+   
+ }

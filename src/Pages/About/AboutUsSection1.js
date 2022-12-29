@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { PRIMARY_COLOR } from "../../Constants/Colors";
 import classes from "./About.module.css";
 import { AiOutlineRight } from 'react-icons/ai';
 import { Link } from "react-router-dom";
+
 const AboutUsSection1 = () => {
+ 
   return (
     <>
       <div className={classes.AboutUsSection1}>
@@ -33,19 +35,45 @@ const AboutUsSection1 = () => {
                 Discover more
               </Link>
             </span>
-            <AiOutlineRight size={24} />
+            <AiOutlineRight size={20} />
           </div>
         </div>
       </div>
       <div className={classes.innerNavWrapper}>
         <div>
-          
           <h2>COMPANY</h2>
         </div>
         <div className={classes.navList}>
-          <div>vision</div>
-          <div>contact us</div>
-          <div>contact</div>
+          <div
+            onClick={() => {
+              document
+                .getElementById("mission")
+                .scrollIntoView({ block: "start", behavior: "smooth" });
+            }}
+          >
+            <span>Mission </span>
+            <AiOutlineRight size={10} />
+          </div>
+          <div
+            onClick={() => {
+              document
+                .getElementById("founder")
+                .scrollIntoView({ block: "start", behavior: "smooth" });
+            }}
+          >
+            <span>Founder </span>
+            <AiOutlineRight size={10} />
+          </div>
+          <div
+            onClick={() => {
+              document
+                .getElementById("contact")
+                .scrollIntoView({ block: "start", behavior: "smooth" });
+            }}
+          >
+            <span>Contact us </span>
+            <AiOutlineRight size={10} />
+          </div>
         </div>
       </div>
     </>
