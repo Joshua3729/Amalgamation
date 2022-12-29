@@ -193,7 +193,28 @@ width: 100%;
     margin-bottom: 50px;
   
 }
+.foundedCard{
+    width: 80%;
+    height: 150px;
+    color: #1c2b33;
+    position: absolute;
+    left: 10%;
+    bottom: -5%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    
+    box-shadow: 1px 1px 100px 3px rgba(85, 65, 72, 0.5);
+    
+}
+.foundedCard> div{
+    font-weight: bold;
+    height: fit-content;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
 
+}
 
  /* CONTACT US CSS */
  .contactUsWrapper{

@@ -40,6 +40,11 @@ const Founder = () => {
         </div>
       </div>
       <img src={svg} className={classes.founderBottomSvg} />
+      <div className={classes.foundedCard}>
+        <div>
+           founded in Lorem Ipsum dolor sit amet, consectetur
+        </div>
+      </div>
     </div>
   );
 }
