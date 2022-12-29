@@ -1,25 +1,32 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import image2 from "../../../../Assets/Images/catering.jpg";
+import image1 from "../../../../Assets/Images/Clothing.jpg";
+import image3 from "../../../../Assets/Images/transport.webp";
+import image4 from "../../../../Assets/Images/boutique.jpg";
 
-function CardItem(props) {
-  return (
-    <>
-      <li className='cards__item'>
-        <Link className='cards__item__link' to={props.path}>
-          <figure className='cards__item__pic-wrap' data-category={props.label}>
-            <img
-              className='cards__item__img'
-              alt='Travel Image'
-              src={props.src}
-            />
-          </figure>
-          <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
-          </div>
-        </Link>
-      </li>
-    </>
-  );
-}
-
+const CardItem = [
+  {
+    img: image1,
+    title: "NM Cuts Beautique",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy",
+  },
+  {
+    img: image2,
+    title: "NM Cuts Catering",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy",
+  },
+  {
+    img: image3,
+    title: "NM Cuts Transport",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy",
+  },
+  {
+    img: image4,
+    title: "NM Cuts Furniture",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy",
+  },
+];
 export default CardItem;
