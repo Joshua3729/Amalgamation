@@ -43,20 +43,21 @@
   margin-bottom: 30px;
 }
 .readMore_link {
-  color: #0078a7;
+  color: #ed028b;
   text-decoration: none;
 }
-.readMore_link::after {
-  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAyOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTggMjgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMDc4YTc7c3Ryb2tlLXdpZHRoOjIuOTgwMTtzdHJva2UtbWl0ZXJsaW1pdDoxMCIgZD0ibTEuMDU5IDEuMTQ1IDE0LjU2IDEyLjg1My0xNC41NiAxMi44NTQiLz48L3N2Zz4=);
-  display: inline-block;
-  height: 11px;
-  margin-left: 10px;
-  width: 7px;
-}
+
 .linkWrapper {
   text-align: right;
 }
 .ourServicesCard {
   /* background-color: red; */
   height: 450px;
+}
+
+.materialSymbolsOutlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.readMore_link i {
+  margin-left: 5px;
 }

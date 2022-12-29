@@ -1,0 +1,41 @@
+.innerWrapper {
+  max-width: 1140px;
+  background-color: aqua;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+/* Card styles///////////////*/
+.TestimonialCard {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.imagePaneWrapper {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: green;
+  overflow: none;
+}
+.imagePaneWrapper img {
+  width: 100%;
+  height: 100%;
+}
+.testimonialTextWrapper {
+  width: 50%;
+}
+.testimonialText {
+  font-size: 30px;
+  color: #6b6d6f;
+}
+.name {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+/* Card styles///////////////*/
