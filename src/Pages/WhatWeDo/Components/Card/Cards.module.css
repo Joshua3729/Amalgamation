@@ -10,8 +10,8 @@ display: inline-block;
 }
 
 .cards {
-  border: 1px solid #ed028b;
-  box-shadow: 0 0 5px #000;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px transparent;
   width: 250px;
   display: inline-block;
   margin-top: 30px;
@@ -19,16 +19,19 @@ display: inline-block;
 }
 .cards_image img {
   width: 249px;
+ 
+  opacity: .7;
 }
 .cards_header {
-  text-align: center;
+  text-align:center;
   margin: 0;
+  color: #ed028b;
   padding: 10px;
   font-weight: bold;
   font-size: 14px;
 }
 .cards_paragraph {
-  text-align: center;
+  text-align: start;
   margin: 0;
   font-size: 12px;
   padding: 10px;
