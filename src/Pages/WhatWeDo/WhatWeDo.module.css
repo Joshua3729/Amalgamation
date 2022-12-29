@@ -1,5 +1,13 @@
+.WhatWeDo{
+  /* width: 100%;
+  margin: 0px;
+  padding: 0px; */
+}
+.cards_wrapper{
+  margin-bottom: 100px;
+}
 .section1Parent {
-    height: 96vh;
+    height: 100vh;
     position: relative;
   
     overflow: hidden;
@@ -18,5 +26,5 @@
  
   }
   .WWDsection1 {
-    width: 100%;
+  height: auto;
   }
