@@ -1,9 +1,36 @@
 .innerWrapper {
   max-width: 1140px;
-  background-color: aqua;
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
+}
+
+.OurServices_header {
+  font-size: 26px;
+  position: relative;
+  margin-bottom: 50px;
+  /* background-color: aqua; */
+}
+.OurServices_header:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 35px;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: #ed028b;
+}
+.OurServices_header:after {
+  position: absolute;
+  content: " ";
+  width: auto;
+  height: auto;
+  bottom: -20px;
+  left: 20px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #ed028b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 
 /* Card styles///////////////*/
