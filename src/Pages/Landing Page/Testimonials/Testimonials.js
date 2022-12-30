@@ -7,33 +7,35 @@ const Testimonial = () => {
     <div className={classes.Testimonial}>
       <div className={classes.innerWrapper}>
         <h1 className={classes.OurServices_header}>Testimonials</h1>
-        <div className={classes.TestimonialCard}>
-          <div
-            className={classes.imagePaneWrapper}
-            style={{
-              backgroundImage:
-                "url(https://discoverymood.com/wp-content/uploads/2020/04/Mental-Strong-Women-min.jpg)",
-            }}
-          >
-            <img src={imgFrame} alt="" />
-            {/* <img
-              src=""
-              alt=""
-              className={classes.profile}
-            /> */}
-          </div>
-          <div className={classes.testimonialTextWrapper}>
-            <h4 className={classes.name}>Gayle Swayer</h4>
-            <p className={classes.testimonialText}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-              culpa quod repellat laborum delectus molestias iure beatae.
-              Aliquam, dicta porro possimus similique laboriosam est vel
-              provident rem repudiandae, unde asperiores?
-            </p>
-          </div>
-        </div>
+        <SlideShow2
+          slidesData={[
+            {
+              profile:
+                "https://discoverymood.com/wp-content/uploads/2020/04/Mental-Strong-Women-min.jpg",
+              name: "Gayle Swayer",
+              color: "rgb(35, 190, 182, 0.2)",
+            },
+            {
+              profile:
+                "https://images.unsplash.com/photo-1534351842133-0db61b907aac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+              name: "Anda Gcisa",
+              color: "rgba(111, 173, 255,0.2)",
+            },
+            {
+              profile:
+                "https://images.unsplash.com/photo-1620794108219-aedbaded4eea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+              name: "Amanda Nteta",
+              color: "rgba(41, 121, 204, 0.2)",
+            },
+            {
+              profile:
+                "https://images.unsplash.com/photo-1617370447481-f4691f05d6f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+              name: "Mary Swarts",
+              color: "rgba(0, 43, 91, 0.2)",
+            },
+          ]}
+        />
       </div>
-      <SlideShow2 />
     </div>
   );
 };
