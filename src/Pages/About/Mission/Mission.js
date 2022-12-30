@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './About.module.css'
+import classes from './Mission.module.css'
 const Mission = () => {
   return (
     <div className={classes.missionWrapper}>
