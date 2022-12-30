@@ -21,7 +21,7 @@ display: inline-block;
 .cards_image img {
   width: 249px;
   border-radius: 4%;
-  opacity: .7;
+
 }
 .cards_header {
   text-align:center;

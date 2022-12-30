@@ -1,6 +1,6 @@
 
 import Subject from "../../Component/SubjectLine/Subject";
-import WhatWeDoImg from "../../Assets/Images/WhatWeDo3rd.jpeg";
+import WhatWeDoImg from "../../Assets/Images/wwdNMc.webp";
 import classes from "./WhatWeDo.module.css";
 import React, { useState } from "react";
 import { PRIMARY_COLOR } from "../../Constants/Colors";
