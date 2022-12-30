@@ -2,7 +2,7 @@ import classes from "../WhatWeDo/WhatWeDo.module.css";
 import WhatWeDoSection1 from "./WhatWeDoSection1";
 import WhatWeDoSection2 from "./WhatWeDoSection2";
 import WhatWeDoSection3 from "./WhatWeDoSection3";
-
+import WhatWeDoSection4 from "./WhatWeDoSection4";
 const WhatWeDo = () => {
   return (
     <div className={classes.WhatWeDo}>
@@ -17,6 +17,9 @@ const WhatWeDo = () => {
 
       <div className={classes.WWDsection3}>
         <WhatWeDoSection3/>
+      </div>
+      <div className={classes.WWDsection4}>
+        <WhatWeDoSection4/>
       </div>
     </div>
   );
