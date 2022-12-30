@@ -1,6 +1,6 @@
 
 import Subject from "../../Component/SubjectLine/Subject";
-import WhatWeDoImg from "../../Assets/Images/WhatWeDo3rd.jpeg";
+import WhatWeDoImg from "../../Assets/Images/wwdNMc.webp";
 import classes from "./WhatWeDo.module.css";
 import React, { useState } from "react";
 import { PRIMARY_COLOR } from "../../Constants/Colors";
@@ -24,7 +24,7 @@ const WhatWeDoSection1 = () => {
   
    
         <Subject Subject="We Offers The Best Variety Of Product To Our Clients" />
-        <div
+        {/* <div
             className={classes.discoverMoreButton}
             style={{
               backgroundColor: PRIMARY_COLOR,
@@ -43,7 +43,7 @@ const WhatWeDoSection1 = () => {
               </Link>
             </span>
             <AiOutlineRight size={20} />
-          </div>
+          </div> */}
     </div>
    
     </div>

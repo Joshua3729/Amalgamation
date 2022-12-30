@@ -1,9 +1,8 @@
-import React, { useState } from "react";
 import classes from  './About.module.css'
-import AboutUsSection1 from "./AboutUsSection1";
-import Contact from "./Contact";
-import Founder from "./Founder";
-import Mission from "./Mission";
+import AboutUs from '../About/AboutUs/AboutUs'
+import Mission from '../About/Mission/Mission'
+import Founder from '../About/Founder/Founder'
+import Contact from '../About/Contact/Contact'
 import {BsTriangle} from 'react-icons/bs'
 
 const About = () => {
@@ -11,7 +10,7 @@ const About = () => {
     return (
       <div className={classes.aboutUsWrapper}>
         <div id="aboutUsSection1">
-          <AboutUsSection1 />
+          <AboutUs />
         </div>
         <div id="mission">
           <Mission />
@@ -19,6 +18,7 @@ const About = () => {
         <div id="founder">
           <Founder />
         </div>
+        <div className={classes.divider}></div>
         <div id="contact">
           <Contact />
         </div>
