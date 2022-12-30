@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { PRIMARY_COLOR } from "../../Constants/Colors";
-import classes from "./About.module.css";
+import { PRIMARY_COLOR } from "../../../Constants/Colors";
+import classes from "./AboutUs.module.css";
 import { AiOutlineRight } from 'react-icons/ai';
 import { Link } from "react-router-dom";
 
@@ -17,26 +17,24 @@ const AboutUsSection1 = () => {
             Nosie Mkosi who chooses to be hands on in the business because of
             her love of food.
           </p>
-          <div
-            className={classes.discoverMoreButton}
+          <Link
+            to="../whatWeDo"
+            className={classes.link}
             style={{
-              backgroundColor: PRIMARY_COLOR,
-              cursor: "pointer",
+              textDecoration: "none",
             }}
           >
-            <span>
-              <Link
-                to="../whatWeDo"
-                className={classes.link}
-                style={{
-                  textDecoration: "none",
-                }}
-              >
-                Discover more
-              </Link>
-            </span>
-            <AiOutlineRight size={20} />
-          </div>
+            <div
+              className={classes.discoverMoreButton}
+              style={{
+                backgroundColor: PRIMARY_COLOR,
+                cursor: "pointer",
+              }}
+            >
+              <span>Discover more</span>
+              <AiOutlineRight size={20} />
+            </div>
+          </Link>
         </div>
       </div>
       <div className={classes.innerNavWrapper}>
@@ -75,6 +73,25 @@ const AboutUsSection1 = () => {
             <AiOutlineRight size={10} />
           </div>
         </div>
+      </div>
+      <div className={classes.servicesContainer}>
+        <h1>
+          Lorem Ipsum dolor sit amet, consectetur adipiscing elit, ut labore et
+          .
+        </h1>
+
+        <p>
+          Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+          <br />
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
       </div>
     </>
   );

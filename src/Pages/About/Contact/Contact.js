@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from "./About.module.css";
+import classes from "./Contact.module.css";
 import Typewriter from "typewriter-effect";
 import { BiPhoneCall } from 'react-icons/bi'
 import { MdOutlineLocationOn } from "react-icons/md";
