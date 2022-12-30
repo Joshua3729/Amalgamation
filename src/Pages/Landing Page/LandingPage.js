@@ -1,4 +1,5 @@
 import Hero from "../../Component/Hero/Hero";
+import ContactUs from "./ContactUs/ContactUs";
 import classes from "./LandingPage.module.css";
 import OurServices from "./OurServices/OurServices";
 import Testimonial from "./Testimonials/Testimonials";
@@ -11,6 +12,7 @@ const LandingPage = (props) => {
       <WhoAreWe />
       <OurServices />
       <Testimonial />
+      <ContactUs />
     </div>
   );
 };
