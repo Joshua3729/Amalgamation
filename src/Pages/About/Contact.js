@@ -1,9 +1,16 @@
 import React from 'react'
 import classes from "./About.module.css";
 import Typewriter from "typewriter-effect";
+import { BiPhoneCall } from 'react-icons/bi'
+import { MdLocationPin } from 'react-icons/md'
+import {AiOutlineMail} from 'react-icons/ai'
 const Contact = () => {
   return (
     <div className={classes.contactUsWrapper}>
+      <div className={classes.contactUsTodayTextWrapper}>
+        <h3>contact us today.</h3>
+        <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
       <div className={classes.contactContainer}>
         <div className={classes.contactTextContainer}>
           <h3>Lorem Ipsum</h3>
@@ -38,9 +45,18 @@ const Contact = () => {
             <input value={""} placeholder={"Name(s)"}></input>
             <input value={""} placeholder={"Email"}></input>
           </div>
-          <input value={""} className={classes.loneInput} placeholder={"Subject"}></input>
-          <textarea className={classes.textArea} placeholder={"Message"}></textarea>
-          <button type='submit' className={classes.buttonSubmit}>Submit</button>
+          <input
+            value={""}
+            className={classes.loneInput}
+            placeholder={"Subject"}
+          ></input>
+          <textarea
+            className={classes.textArea}
+            placeholder={"Message"}
+          ></textarea>
+          <button type="submit" className={classes.buttonSubmit}>
+            Submit
+          </button>
         </form>
       </div>
     </div>
