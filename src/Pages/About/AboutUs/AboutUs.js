@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { PRIMARY_COLOR } from "../../../Constants/Colors";
 import classes from "./AboutUs.module.css";
 import { AiOutlineRight } from 'react-icons/ai';
+import ServiceDisplayCard from "../../../Component/ServiceDisplayCard/ServiceDisplayCard";
 import { Link } from "react-router-dom";
 
 const AboutUsSection1 = () => {
@@ -75,23 +76,24 @@ const AboutUsSection1 = () => {
         </div>
       </div>
       <div className={classes.servicesContainer}>
-        <h1>
-          Lorem Ipsum dolor sit amet, consectetur adipiscing elit, ut labore et
-          .
-        </h1>
+        <h1>Lorem Ipsum dolor sit amet, consectetur adipiscing elit .</h1>
 
         <p>
           Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
           
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat.
-          <br />
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.
         </p>
+      </div>
+      <div className={classes.displayImages}>
+        <ServiceDisplayCard />
+        <ServiceDisplayCard />
+        <ServiceDisplayCard />
       </div>
     </>
   );
