@@ -36,6 +36,7 @@
 .OurServices_header {
   font-size: 26px;
   position: relative;
+  color: #1c2b33;
   /* background-color: aqua; */
 }
 .OurServices_header:before {

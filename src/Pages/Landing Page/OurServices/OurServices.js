@@ -6,7 +6,9 @@ const OurServices = () => {
   return (
     <div className={classes.OurServices}>
       <div className={classes.OurServices_innerWrapper}>
-        <div className={classes.headerWrapper}>1</div>
+        <div className={classes.headerWrapper}>
+          <h1 className={classes.OurServices_header}>Our Services</h1>
+        </div>
         <div className={classes.gridWrapper}>
           <div className={classes.gridBuffer}></div>
           <div className={classes.OurServices_cardWrapper}>
