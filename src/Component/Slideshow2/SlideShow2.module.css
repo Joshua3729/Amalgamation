@@ -122,7 +122,7 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #ed028b;
+  background-color: #1c2b33;
   opacity: 0.4;
   border: none;
   cursor: pointer;
@@ -144,17 +144,18 @@
   z-index: 800;
 }
 .slideDot_btn {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  border: 2px solid #ed028b;
+  /* border: 5px solid #1c2b33; */
   margin: 5px;
   cursor: pointer;
-  background-color: white;
+  background-color: rgba(28, 43, 51, 0.7);
+  box-sizing: border-box;
 }
 .slideDot_btn:hover {
-  background-color: #ed028b;
+  background-color: #1c2b33;
 }
 .dotActive {
-  background-color: #ed028b !important;
+  background-color: #1c2b33 !important;
 }
