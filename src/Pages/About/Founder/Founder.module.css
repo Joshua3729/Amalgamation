@@ -2,7 +2,7 @@
 
 
 .founderWrapper{
-    padding-block: 20vh;
+    padding-top: 20vh;
     position: relative;
     color: white;
     
@@ -66,8 +66,7 @@ width: 100%;
     left: 0px;
     width: 100%;
     position: absolute;
-    
-    bottom: 3%;
+    bottom: 0%;
 }
 .founderTopSvg{
     width: 100%;
@@ -84,7 +83,7 @@ width: 100%;
     color: #1c2b33;
     position: absolute;
     left: 10%;
-    bottom: -5%;
+    bottom: -10%;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 1);
     
