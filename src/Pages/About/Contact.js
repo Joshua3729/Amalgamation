@@ -2,9 +2,10 @@ import React from 'react'
 import classes from "./About.module.css";
 import Typewriter from "typewriter-effect";
 import { BiPhoneCall } from 'react-icons/bi'
-import { MdLocationPin } from 'react-icons/md'
+import { MdOutlineLocationOn } from "react-icons/md";
 import {AiOutlineMail} from 'react-icons/ai'
 const Contact = () => {
+  const iconSize = 25;
   return (
     <div className={classes.contactUsWrapper}>
       <div className={classes.contactUsTodayTextWrapper}>
@@ -30,6 +31,29 @@ const Contact = () => {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           </p>
+          <div className={classes.iconsContainer}>
+            <div>
+              <div className={classes.icon}>
+                <BiPhoneCall size={iconSize} />{" "}
+              </div>
+              <p className={classes.iconText}>call us today</p>
+            </div>
+
+            <div>
+              <div className={classes.icon}>
+                {" "}
+                <AiOutlineMail size={iconSize} />{" "}
+              </div>
+              <p className={classes.iconText}>Send an email</p>
+            </div>
+            <div>
+              <div className={classes.icon}>
+                {" "}
+                <MdOutlineLocationOn size={iconSize} />{" "}
+              </div>
+              <p className={classes.iconText}>visit our HQ</p>
+            </div>
+          </div>
         </div>
         <form>
           <div className={classes.typeWriterMessage}>
