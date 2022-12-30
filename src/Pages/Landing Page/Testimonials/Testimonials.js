@@ -1,10 +1,12 @@
 import classes from "./Testimonial.module.css";
 import imgFrame from "../../../Assets/Images/frame.png";
+import SlideShow2 from "../../../Component/Slideshow2/SlideShow2";
 
 const Testimonial = () => {
   return (
     <div className={classes.Testimonial}>
       <div className={classes.innerWrapper}>
+        <h1 className={classes.OurServices_header}>Testimonials</h1>
         <div className={classes.TestimonialCard}>
           <div
             className={classes.imagePaneWrapper}
@@ -31,6 +33,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
+      <SlideShow2 />
     </div>
   );
 };

@@ -19,6 +19,7 @@ const About = () => {
         <div id="founder">
           <Founder />
         </div>
+        <div className={classes.divider}></div>
         <div id="contact">
           <Contact />
         </div>

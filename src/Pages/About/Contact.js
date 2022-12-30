@@ -1,9 +1,17 @@
 import React from 'react'
 import classes from "./About.module.css";
 import Typewriter from "typewriter-effect";
+import { BiPhoneCall } from 'react-icons/bi'
+import { MdOutlineLocationOn } from "react-icons/md";
+import {AiOutlineMail} from 'react-icons/ai'
 const Contact = () => {
+  const iconSize = 25;
   return (
     <div className={classes.contactUsWrapper}>
+      <div className={classes.contactUsTodayTextWrapper}>
+        <h3>contact us today.</h3>
+        <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
       <div className={classes.contactContainer}>
         <div className={classes.contactTextContainer}>
           <h3>Lorem Ipsum</h3>
@@ -23,6 +31,29 @@ const Contact = () => {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           </p>
+          <div className={classes.iconsContainer}>
+            <div>
+              <div className={classes.icon}>
+                <BiPhoneCall size={iconSize} />{" "}
+              </div>
+              <p className={classes.iconText}>call us today</p>
+            </div>
+
+            <div>
+              <div className={classes.icon}>
+                {" "}
+                <AiOutlineMail size={iconSize} />{" "}
+              </div>
+              <p className={classes.iconText}>Send an email</p>
+            </div>
+            <div>
+              <div className={classes.icon}>
+                {" "}
+                <MdOutlineLocationOn size={iconSize} />{" "}
+              </div>
+              <p className={classes.iconText}>visit our HQ</p>
+            </div>
+          </div>
         </div>
         <form>
           <div className={classes.typeWriterMessage}>
@@ -38,9 +69,18 @@ const Contact = () => {
             <input value={""} placeholder={"Name(s)"}></input>
             <input value={""} placeholder={"Email"}></input>
           </div>
-          <input value={""} className={classes.loneInput} placeholder={"Subject"}></input>
-          <textarea className={classes.textArea} placeholder={"Message"}></textarea>
-          <button type='submit' className={classes.buttonSubmit}>Submit</button>
+          <input
+            value={""}
+            className={classes.loneInput}
+            placeholder={"Subject"}
+          ></input>
+          <textarea
+            className={classes.textArea}
+            placeholder={"Message"}
+          ></textarea>
+          <button type="submit" className={classes.buttonSubmit}>
+            Submit
+          </button>
         </form>
       </div>
     </div>
