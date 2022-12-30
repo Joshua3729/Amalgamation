@@ -1,8 +1,8 @@
 import Cards from "../WhatWeDo/Components/Card/Cards";
 import classes from "./WhatWeDo.module.css";
-import catering from "../../Assets/Images/catering.jpg";
-import beutique from "../../Assets/Images/Clothing.jpg";
-import transport from "../../Assets/Images/transport.webp";
+import catering from "../../Assets/Images/catering2.jfif";
+import beutique from "../../Assets/Images/clothesSale.jpeg";
+import transport from "../../Assets/Images/avanza.jfif";
 import furniture from "../../Assets/Images/couch2.jpg";
 import PageBanner from "../WhatWeDo/Components/SVGComponent/PageBanner"
 // import BannerTextAnimation from "../WhatWeDo/Components/BannerTextAnimation/BannerTextAnimation"
@@ -11,9 +11,9 @@ const WhatWeDoSection3 = () => {
     <>
      <PageBanner />
     <h1 className={classes.title}>What We Do?</h1>
- 
+      <div className={classes.section3_special1}>
       <div className={classes.mainContainerSection3a}>
-      <PageBanner />
+   
         <div className={classes.imageContainera}>
           <img src={catering} alt="cars" className={classes.firstImagea} />
         </div>
@@ -49,6 +49,8 @@ const WhatWeDoSection3 = () => {
           <img src={beutique } alt="cars" className={classes.firstImageb} />
         </div>
       </div>
+      </div>
+      <div className={classes.section3_special2}>
       <div className={classes.mainContainerSection3a}>
         <div className={classes.imageContainera}>
           <img src={furniture} alt="cars" className={classes.firstImagea} />
@@ -84,6 +86,7 @@ const WhatWeDoSection3 = () => {
         <div className={classes.imageContainerb}>
           <img src={transport } alt="cars" className={classes.firstImageb} />
         </div>
+      </div>
       </div>
 
     </>

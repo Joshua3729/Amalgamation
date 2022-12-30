@@ -17,6 +17,7 @@ display: inline-block;
   display: inline-block;
   margin-top: 30px;
   margin-left: 50px;
+
 }
 .cards_image img {
   width: 249px;
@@ -29,11 +30,12 @@ display: inline-block;
   color: #ed028b;
   padding: 10px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 30pxpx;
 }
 .cards_paragraph {
   text-align: start;
   margin: 0;
-  font-size: 12px;
+  font-size: 20px;
+
   padding: 10px;
 }

@@ -11,6 +11,7 @@ const WhatWeDo = () => {
       </div>
 
       <div className={classes.WWDsection2}>
+     
         <WhatWeDoSection2/>
       </div>
 

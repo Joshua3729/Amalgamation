@@ -10,7 +10,7 @@ padding: 2px 2px;
     height: 100vh;
     position: relative;
   
-    overflow: hidden;
+    
   }
   .innerWrapper {
     display: flex;
@@ -28,24 +28,36 @@ padding: 2px 2px;
     justify-content: space-around;
     height: 300px;
     width: 90%;
-    border-radius: 1%;
-    background-color:#EEEEEE;
-    margin-bottom: 10px;
+    
+    background-color:transparent;
+
     align-items: center;
     margin-left: 60px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+  }
+  .section3_special1{
+    background-color:#EEEEEE;
+    /* margin-left: 60px;
+    height: 640px;
+    width: 90%; */
+  }
+  .section3_special2{
+    background-color:#3C4048;
+    /* width: 90%;
+    height: 640px;
+    margin-left: 60px; */
   }
   .mainContainerSection3b{
     display: flex;
     justify-content: space-around;
     height: 300px;
     width: 90%;
-    border-radius: 1%;
-    background-color:#EEEEEE;
-    margin-bottom: 10px;
+
+    background-color:transparent;
+   
     align-items: center;
     margin-left: 60px;
-    margin-top: 50px;
+    /* margin-bottom: 50px; */
   }
   .descriptionSection3a {
    text-align: right;
@@ -97,13 +109,20 @@ padding: 2px 2px;
   margin-top: 30px;
   text-decoration: none;
 }
+.section2_image{
+  background-image: url('../../Assets/Images/background3.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 .titleSection3{
   text-align: center;
   font-weight: 700;
   font-size: 30px;
   color: #ED028B;
-  
-  
+}
+.section2_Cards{
+  background-color: #D6E4E5;
+ opacity: .8;
 }
 .discoverMoreButton{
   width: fit-content;
