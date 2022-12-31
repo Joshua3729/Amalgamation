@@ -9,8 +9,9 @@ import PageBanner from "../WhatWeDo/Components/SVGComponent/PageBanner"
 const WhatWeDoSection3 = () => {
   return (
     <>
+      <div className={classes.wrapper}>
      <PageBanner />
-    <h1 className={classes.title}>What We Do?</h1>
+     <h1 className={classes.title}>What We Do?</h1>
       <div className={classes.section3_special1}>
       <div className={classes.mainContainerSection3a}>
    
@@ -88,7 +89,7 @@ const WhatWeDoSection3 = () => {
         </div>
       </div>
       </div>
-
+      </div>
     </>
   );
 };
