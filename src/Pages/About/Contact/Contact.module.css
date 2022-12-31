@@ -1,8 +1,9 @@
 /* CONTACT US CSS */
  .contactUsWrapper{
-    padding-top: 20vh;
-    height: 100vh;
-    background-color: white;
+    padding-block: 20vh;
+    height:fit-content;
+    background-color:rgba(85, 65, 72, 0.1);
+   /* background: linear-gradient(0deg,rgb(27, 42, 49,1),rgb(27, 42, 49,1),rgb(27, 42, 49,.1)); */
     /* background-color: black; */
     /* background: linear-gradient(90deg,#554148,#C8AEFF); */
     /* background-image: url('../../Assets/Images/contact-us-background.jpg');
@@ -16,8 +17,8 @@
     width: 90%;
     height: fit-content;
     /* background-color: rgba(200, 174, 255, 0.5); */
-    background-color: rgba(28, 43, 51, 0.1);
-    backdrop-filter: blur(50px);
+    background-color: rgba(28, 43, 51, 0.3);
+    backdrop-filter: blur(5px);
     margin-inline:auto ;
     position: relative;
     margin-top: 50px;
@@ -34,7 +35,7 @@
     font-size: 20px;
  }
 .contactContainer > form{
-    border: 5px solid rgba(255, 255, 255, 0.5);
+    border: 5px solid rgba(28, 43, 51, 0.5);
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -161,7 +162,7 @@
  .icon{
     width: fit-content;
     height: fit-content;
-    border: 2px solid rgba(85, 65, 72);
+    border: 2px solid rgba(28, 43, 51, 0.5);
     padding: 10px;
     border-radius:30px ;
     background-color: rgba(85, 65, 72,.1);
@@ -178,7 +179,7 @@
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    border: 3px solid rgba(28, 43, 51, 0.3);
+    border: 3px solid rgba(28, 43, 51,.8);
     
     /* box-shadow: 1px 1px 1px 2px #ED028B; */
  }
