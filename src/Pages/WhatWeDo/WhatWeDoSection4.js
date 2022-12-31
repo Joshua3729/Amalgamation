@@ -50,6 +50,7 @@ const responsive = {
   const WhatWeDoSection4 = () => {
     return (
       <>
+           <div className={classes.wrapper}>
          <h1 className={classes.title}>NM Amalgated Service Display</h1>
    <div className={classes.carouselContainer}>
         <Carousel
@@ -174,6 +175,7 @@ const responsive = {
           
         </Carousel>
         <div className={classes.headingForRows}>NM Tours Transport Display</div>
+      </div>
       </div>
 </>
   );
