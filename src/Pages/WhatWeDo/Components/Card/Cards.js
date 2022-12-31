@@ -7,7 +7,7 @@ const Cards = (props) => {
   return (
  
  <>
- <h1 className={classes.section2_tilte}> Services/Products </h1>
+
  
  {props.details.map((value,index)=>(
       <div className={classes.cards} key={index}>

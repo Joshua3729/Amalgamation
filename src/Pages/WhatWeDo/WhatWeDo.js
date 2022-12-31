@@ -3,6 +3,7 @@ import WhatWeDoSection1 from "./WhatWeDoSection1";
 import WhatWeDoSection2 from "./WhatWeDoSection2";
 import WhatWeDoSection3 from "./WhatWeDoSection3";
 import WhatWeDoSection4 from "./WhatWeDoSection4";
+import Quote from "./Quote";
 const WhatWeDo = () => {
   return (
     <div className={classes.WhatWeDo}>
@@ -20,6 +21,9 @@ const WhatWeDo = () => {
       </div>
       <div className={classes.WWDsection4}>
         <WhatWeDoSection4/>
+      </div>
+      <div className={classes.WWDsection5}>
+        <Quote/>
       </div>
     </div>
   );

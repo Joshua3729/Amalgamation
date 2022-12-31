@@ -1,17 +1,25 @@
 import React from 'react'
 import classes from './ServiceDisplayCard.module.css';
 import background from '../../Assets/Images/catering.jpg'
-const ServiceDisplayCard = () => {
+import { AiOutlineRight } from "react-icons/ai";
+
+const ServiceDisplayCard = (props) => {
+  
+  console.log(props.subject)
   return (
     <div className={classes.cardWrapper}>
       <div className={classes.imageContainer}>
-        <img src={background} className={classes.imageBg} />
+        <img src={props.image} className={classes.imageBg} />
       </div>
       <div className={classes.textContainer}>
-        <h3>Lorem Ipsum dolor sit amet</h3>
+        <h3>{props.subject}</h3>
         <p>
-          Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          {props.description}
+          <p>
+            <button type="button" className={classes.button}>
+              What we do ? <AiOutlineRight size={10} />
+            </button>
+          </p>
         </p>
       </div>
     </div>
