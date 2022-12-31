@@ -4,7 +4,6 @@
     
     margin-inline: auto;
     position: relative;
-
 }
 .imageBg{
     width: 100%;
@@ -16,6 +15,23 @@
     width: 100%;
     height: 100%;
 }
+
+
+@keyframes cardAnimationHover {
+    0% {opacity: 0;}
+    25% {opacity: .25;}
+    50% {opacity: .5;}
+    75% {opacity: .75;}
+    100% {opacity: 1;}
+}
+
+@keyframes cardAnimationHoverExit {
+    0% {opacity: 1;}
+    25% {opacity: .75;}
+    50% {opacity: .5;}
+    75% {opacity: .25;}
+    100% {opacity: 0;}
+}
 .textContainer{
     width: fit-content;
     position: absolute;
@@ -25,7 +41,35 @@
     padding-inline:10px ;
     contain: layout;
     color:#1c2b33;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     font-weight: 400;
+    opacity: 0;
+}
+
+.textContainer:hover{
+    animation-name: cardAnimationHover;
+    animation-duration: .5s;
+    opacity: 1;
+}
+
+
+.textContainer:not( :hover ){ 
+    animation-name: cardAnimationHoverExit;
+    animation-duration: .5s;
+    opacity: 0;
+ }
+
+.button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgba(237, 2, 139, 0.808);
+    font-weight: 900;
+    margin-right: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.textContainer>h3{
+    font-size: 20px;
 }
