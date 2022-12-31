@@ -1,0 +1,14 @@
+.ServiceItems{
+    padding-block: 100px;
+    
+}
+.items{
+   
+    
+}
+.eachItem{
+    width: fit-content;
+    background-color: black;
+    height: fit-content;
+    margin-inline: auto;
+}

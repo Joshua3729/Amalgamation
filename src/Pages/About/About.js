@@ -4,6 +4,7 @@ import Mission from '../About/Mission/Mission'
 import Founder from '../About/Founder/Founder'
 import Contact from '../About/Contact/Contact'
 import {BsTriangle} from 'react-icons/bs'
+import ServiceItems from './ServiceItems/ServiceItems'
 
 const About = () => {
      
@@ -11,6 +12,9 @@ const About = () => {
       <div className={classes.aboutUsWrapper}>
         <div id="aboutUsSection1">
           <AboutUs />
+        </div>
+        <div>
+          <ServiceItems/>
         </div>
         <div id="mission">
           <Mission />
