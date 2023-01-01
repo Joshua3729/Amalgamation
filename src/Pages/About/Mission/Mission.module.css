@@ -1,18 +1,31 @@
 /* MISSION CSS */
-.missionWrapper{
-    padding-block: 20vh;
-    color: #1c2b33;
-    background-color: rgba(85, 65, 72, 0.5);
+.missionWrapper {
+  color: #1c2b33;
 }
-.missionContainer{
-    width: 80%;
-    margin: 0px auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
+.missionContainer {
+  backdrop-filter: blur(5px);
+  width: 50%;
 }
-.missionContainer > p{
-    font-size: 20px;
-    font-weight: 400;
-    text-align: start;
+.missionContainer > p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: start;
+}
+.innerWrapper {
+  max-width: 1140px;
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  width: calc(50% - 50px);
+  margin-right: 50px;
+}
+.imageWrapper img {
+  width: 100%;
+}
+.header {
+  text-align: left;
 }

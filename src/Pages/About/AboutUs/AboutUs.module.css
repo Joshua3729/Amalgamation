@@ -9,6 +9,31 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.innerSectionWrapper {
+  position: relative;
+  max-width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(0, 0, 0, 0.8)),
+    color-stop(60%, rgba(0, 0, 0, 0.2765))
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.2765) 60%
+  );
+}
 .textWrapper {
   width: 40%;
   position: absolute;
@@ -45,14 +70,19 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  width: 200px;
   right: 5%;
-  color: #ed028b;
-  padding: 20px 40px;
+  color: white;
+  padding: 10px;
   display: grid;
-  justify-content: right;
+  justify-content: left;
   border: 3px solid rgb(255, 255, 255, 0.1);
   background-color: rgb(255, 255, 255, 0.01);
   backdrop-filter: blur(5px);
+}
+.navHeader {
+  margin: 0;
+  margin-bottom: 0px;
 }
 .innerNavWrapper > div {
   width: fit-content;
@@ -83,19 +113,22 @@
   bottom: 5px;
 }
 .servicesContainer {
+  display: block;
+  max-width: 1140px;
+  margin: 0 auto;
   margin-top: 100px;
   color: #1c2b33;
   width: 90%;
   margin-inline: auto;
 }
 .servicesContainer > h1 {
-  font-size: 55px;
+  font-size: 30px;
   width: 90%;
   margin-inline: auto;
 }
 
 .servicesContainer > P {
-  font-size: 25px;
+  font-size: 20px;
   width: 70%;
   margin-inline: auto;
   font-weight: 400;
