@@ -1,21 +1,19 @@
 import React, { useState } from "react";
 import { PRIMARY_COLOR } from "../../../Constants/Colors";
 import classes from "./AboutUs.module.css";
-import { AiOutlineRight } from 'react-icons/ai';
+import { AiOutlineRight } from "react-icons/ai";
 import ServiceDisplayCard from "../../../Component/ServiceDisplayCard/ServiceDisplayCard";
 import { Link } from "react-router-dom";
 import clothes1 from "../../../Assets/Images/clothes1.jpeg";
-import catering from '../../../Assets/Images/catering3.jpg'
+import catering from "../../../Assets/Images/catering3.jpg";
 import taxi from "../../../Assets/Images/taxi.webp";
-import Carousel  from "react-multi-carousel";
+import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const AboutUsSection1 = () => {
-  
-  
- 
   return (
     <>
+      <div className={classes.gutter}></div>
       <div className={classes.AboutUsSection1}>
         <div className={classes.textWrapper}>
           <h1>WHO ARE WE?</h1>
@@ -95,8 +93,6 @@ const AboutUsSection1 = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-    
-      
     </>
   );
 };
