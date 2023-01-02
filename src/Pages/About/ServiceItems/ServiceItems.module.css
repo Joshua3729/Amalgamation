@@ -1,14 +1,16 @@
-.ServiceItems{
-    padding-block: 100px;
-    
+.ServiceItems {
+  padding-block: 100px;
 }
-.items{
-   
-    
+.items {
 }
-.eachItem{
-    width: fit-content;
-    background-color: black;
-    height: fit-content;
-    margin-inline: auto;
+.eachItem {
+  width: fit-content;
+  background-color: black;
+  height: fit-content;
+  margin-inline: auto;
+}
+.innerWrapper {
+  max-width: 1140px;
+  display: block;
+  margin: 0 auto;
 }

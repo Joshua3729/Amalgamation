@@ -1,5 +1,5 @@
 import classes from "./ContactUs.module.css";
-import frame from "../../../Assets/Images/frame2.png";
+import frame from "../../../Assets/Images/bannerFrame2.png";
 import getInTouch from "../../../Assets/Images/getintouch.jpg";
 import { BiPhoneCall } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
