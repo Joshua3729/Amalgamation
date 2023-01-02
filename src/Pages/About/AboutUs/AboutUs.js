@@ -53,7 +53,7 @@ const AboutUsSection1 = () => {
                 onClick={() => {
                   document
                     .getElementById("mission")
-                    .scrollIntoView({ block: "start", behavior: "smooth" });
+                    .scrollIntoView({ block: "center", behavior: "smooth" });
                 }}
               >
                 <span>Mission </span>
