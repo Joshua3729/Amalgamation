@@ -160,11 +160,9 @@
  .icon{
     width: fit-content;
     height: fit-content;
-    border: 2px solid rgba(28, 43, 51, 0.5);
     padding: 10px;
     border-radius:30px ;
-    background-color: rgba(85, 65, 72,.1);
-    color: rgba(85, 65, 72);
+    color: rgba(28, 43, 51);
     
     margin-inline: auto;
     
@@ -177,7 +175,7 @@
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    border: 3px solid rgba(28, 43, 51,.8);
+    border: 3px solid rgba(28, 43, 51);
     
     /* box-shadow: 1px 1px 1px 2px #ED028B; */
  }
@@ -189,7 +187,7 @@
     bottom: 5px;
     /* border: 3px solid rgba(28, 43, 51, 0.3); */
  }
- .iconText{
+ .iconText {
     margin-inline: auto;
     width: fit-content;
     color: rgba(28, 43, 51, 0.7);
