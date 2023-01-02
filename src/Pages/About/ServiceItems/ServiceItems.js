@@ -54,7 +54,6 @@ const ServiceItems = (props) => {
         renderDotsOutside={false}
         // customTransition="all .5"
         transitionDuration={1000}
-        // containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         deviceType={"desktop"}
         sliderClass=""

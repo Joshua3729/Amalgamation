@@ -14,7 +14,7 @@
 
  .contactContainer{
     color: #1c2b33;
-    width: 90%;
+    max-width: 80%;
     height: fit-content;
     /* background-color: rgba(200, 174, 255, 0.5); */
     background-color: rgba(28, 43, 51, 0.3);
@@ -24,9 +24,15 @@
     margin-top: 50px;
     /* top: 10%; */
     /* transform: translateY(-50%); */
-    display: grid;
-    grid-template-columns: auto 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
     gap: 50px;
+ }
+ .contactTextContainer{
+   border: 2px solid red;
+   max-width: 40%;
  }
  .contactContainer >*{
     

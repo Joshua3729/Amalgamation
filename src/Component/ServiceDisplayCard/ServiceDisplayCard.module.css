@@ -1,7 +1,6 @@
 .cardWrapper{
-    width: 350px;
+    max-width: 350px;
     height: 400px;
-    
     margin-inline: auto;
     position: relative;
 }
@@ -72,4 +71,10 @@
 }
 .textContainer>h3{
     font-size: 20px;
+}
+.eachItem{
+    width: fit-content;
+    background-color: black;
+    height: fit-content;
+    margin-inline: auto;
 }
