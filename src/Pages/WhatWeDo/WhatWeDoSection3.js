@@ -1,4 +1,4 @@
-import Cards from "../WhatWeDo/Components/Card/Cards";
+
 import classes from "./WhatWeDo.module.css";
 import catering from "../../Assets/Images/catering2.jfif";
 import beutique from "../../Assets/Images/clothesSale.jpeg";
