@@ -6,6 +6,8 @@ import Contact from '../About/Contact/Contact'
 import {BsTriangle} from 'react-icons/bs'
 import ServiceItems from './ServiceItems/ServiceItems'
 
+import GeneralSlider from '../../Component/GeneralSlider/GeneralSlider'
+
 const About = () => {
      
     return (
@@ -14,7 +16,7 @@ const About = () => {
           <AboutUs />
         </div>
         <div>
-          <ServiceItems/>
+          <ServiceItems />
         </div>
         <div id="mission">
           <Mission />
@@ -26,7 +28,6 @@ const About = () => {
         <div id="contact">
           <Contact />
         </div>
-
         <div
           className={classes.triangleButton}
           onClick={() => {
