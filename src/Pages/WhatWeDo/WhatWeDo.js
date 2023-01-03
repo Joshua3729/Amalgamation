@@ -22,7 +22,7 @@ const WhatWeDo = () => {
       <div className={classes.WWDsection4}>
         <WhatWeDoSection4/>
       </div>
-      <div className={classes.WWDsection5}>
+      <div className={classes.quote}>
         <Quote/>
       </div>
     </div>

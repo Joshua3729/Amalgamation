@@ -91,7 +91,6 @@ justify-content: center;
   }
 .section3Diva{
   width:600px;
-  /* margin-bottom: 150px; */
   height:200px;
   background:transparent;
   margin-right: 80px;
@@ -99,7 +98,6 @@ justify-content: center;
 }
 .section3Divb{
   width:600px;
-  /* margin-bottom: 150px; */
   height:200px;
   background:transparent;
   margin-left: 80px;
@@ -108,14 +106,12 @@ justify-content: center;
 .title{
   text-align: center;
   margin-top: 100px;
-  margin-top: 100px;
+  margin-bottom: 100px;
   font-weight: 700;
   text-decoration: none;
 }
 .section2_image{
-  /* background-image: url('../../Assets/Images/background3.jpeg'); */
   background-size: 100%;
-  /* background-repeat: no-repeat; */
   margin-top: 0;
 }
 .titleSection3{
@@ -124,10 +120,7 @@ justify-content: center;
   font-size: 30px;
   color: #ED028B;
 }
-.section2_Cards{
-  /* background-color: #D6E4E5; */
- 
-}
+
 .discoverMoreButton{
   width: fit-content;
   padding: 20px 50px;
@@ -144,21 +137,26 @@ justify-content: center;
 }
 .carouselContainer {
   margin-bottom: 6rem;
+
+}
+.carouselContainer img{
+  width: 250px;
+  height: 250px;
 }
 .listItem {
-  border-radius: 3px;
-  width: 16rem;
-  margin-bottom: 1rem;
+  /* border-radius: 3px;*/
+  width: 10rem; 
+  margin-bottom: 1.5rem;
 }
 .headingForRows {
-  font-size: 3rem;
+  font-size: 30px;
   text-align: center;
   margin: 0px;
   padding: 0px;
   height: fit-content;
   font-weight: bold;
   color: #554148;
-  margin-top: 1rem;
+  margin-top: 20px;
 }
 
 .OurServices {
@@ -182,8 +180,6 @@ justify-content: center;
   text-align: left;
 }
 .gridWrapper {
-  /* background-color: #f6f7f8; */
-  /* background-color: #ddd7c6; */
   background-color: #f3f7fa;
   padding-bottom: 50px;
 }
@@ -202,25 +198,4 @@ justify-content: center;
 
   color: #1c2b33;
   /* background-color: aqua; */
-}
-.OurServices_header:before {
-  /* content: "";
- 
-  display: inline-block;
-  top: 35px;
-
-  width: 100px;
-  height: 4px;
-  background: #ed028b; */
-}
-.OurServices_header:after {
-
-  /* content: " ";
-  width: auto;
-  height: auto;
-  bottom: -20px;
-
-  border-width: 8px;
-  border-style: solid;
-  border-color: #ed028b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); */
 }
