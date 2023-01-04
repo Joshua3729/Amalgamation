@@ -1,0 +1,9 @@
+ .logo{
+    width: fit-content;
+    height: fit-content;
+}
+.logoIMage{
+    width: 11rem;
+    height: 5rem;
+    /* box-shadow: 2px 2px 2px 1px #f72585; */
+}

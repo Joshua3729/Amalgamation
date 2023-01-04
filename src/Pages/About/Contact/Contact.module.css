@@ -1,8 +1,9 @@
 /* CONTACT US CSS */
  .contactUsWrapper{
-    padding-block: 20vh;
+    padding-top: 20vh;
+    padding-bottom: 50px;
     height:fit-content;
-    background-color: white;
+    background-color: #003f5c;
    
 
  }
@@ -11,8 +12,8 @@
     color: white;
     max-width: 80%;
     height: fit-content;
-    background-color: rgba(76, 82, 112);
-    /* backdrop-filter: blur(5px); */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
     border-top-left-radius: 30px;
     margin-inline:auto ;
     position: relative;
@@ -32,7 +33,7 @@
     font-size: 20px;
  }
 .contactContainer > form{
-    border: 5px solid rgba(28, 43, 51, 1);
+    border: 5px solid rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -117,23 +118,24 @@
     background-color: rgba(255, 255, 255, 1);
     /* background: linear-gradient(90deg,#C8AEFF,#ED028B); */
     
-    border: 3px solid #1c2b33;
+    border: 3px solid #ED028B;
     cursor: pointer;
-    color: #1c2b33;
+    color: #003f5c;
     font-weight:600;
  }
  .buttonSubmit:hover{
-    background-color: #1c2b33;
+    background-color: #ED028B;
     color: white;
  }
  .contactUsTodayTextWrapper{
-    color: #1c2b33;
+    color: white;
  }
  .contactUsTodayTextWrapper > h3{
     width: fit-content;
     height: fit-content;
     font-size: 15px;
-    background: rgba(200, 174, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
     padding-block: 5px;
     padding-inline: 20px;
     margin-inline: auto;
@@ -141,7 +143,7 @@
  }
  .contactUsTodayTextWrapper >p{
     font-size: 20px;
-    opacity: .5;
+    opacity: .7;
  }
  .iconsContainer{
     display: grid;
@@ -161,7 +163,7 @@
     height: fit-content;
     padding: 10px;
     border-radius:30px ;
-    color: rgba(28, 43, 51);
+    color: white;
     
     margin-inline: auto;
     
@@ -169,12 +171,12 @@
 
  .iconsContainer>div{
     width: 100px;
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    border: 3px solid rgba(28, 43, 51);
+    /* border: 3px solid white; */
     
     /* box-shadow: 1px 1px 1px 2px #ED028B; */
  }
@@ -189,5 +191,5 @@
  .iconText {
     margin-inline: auto;
     width: fit-content;
-    color: rgba(28, 43, 51, 0.7);
+    color: rgba(255, 255, 255, 0.7);
  }

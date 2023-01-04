@@ -5,6 +5,7 @@ import Navigation from "./Component/Navigation/Navigation";
 import { Route, Routes, useLocation } from "react-router-dom";
 import About from "./Pages/About/About";
 import WhatWeDo from "./Pages/WhatWeDo/WhatWeDo";
+import Footer from './Component/Footer/Footer'
 
 function App() {
   const location = useLocation();
@@ -17,6 +18,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="whatWeDo" element={<WhatWeDo />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
