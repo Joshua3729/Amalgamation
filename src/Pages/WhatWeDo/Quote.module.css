@@ -1,12 +1,4 @@
-/* .mySection {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-   */
-  /* .Quotelandingpage {
-    width: 100%;
-  } */
+
   
   .section {
     width: 100%;
@@ -29,12 +21,12 @@
     /* display: grid;
       grid-template-columns: 54.5% 44.5%; */
     color: white;
-    padding-block: 7rem;
+    /* padding-block: 7rem; */
     justify-content: center;
   }
   
   .message {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     text-align: left;
     margin-bottom: 40px;
     text-overflow: ellipsis;

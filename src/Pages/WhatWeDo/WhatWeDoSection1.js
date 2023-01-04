@@ -1,6 +1,6 @@
 
 import Subject from "../../Component/SubjectLine/Subject";
-import WhatWeDoImg from "../../Assets/Images/background7.webp";
+import WhatWeDoImg from "../../Assets/Images/business5.jfif";
 import classes from "./WhatWeDo.module.css";
 // import CardItem from "./Components/Card/CardItem";
 import React, { useState } from "react";
