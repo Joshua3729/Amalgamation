@@ -136,7 +136,7 @@ justify-content: center;
   
 }
 .carouselContainer {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 
 }
 .carouselContainer img{
@@ -144,12 +144,12 @@ justify-content: center;
   height: 250px;
 }
 .listItem {
-  /* border-radius: 3px;*/
+  border-radius: 3px;
   width: 10rem; 
   margin-bottom: 1.5rem;
 }
 .headingForRows {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin: 0px;
   padding: 0px;
