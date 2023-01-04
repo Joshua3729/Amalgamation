@@ -1,4 +1,5 @@
 .Footer{
+    font-weight: 500;
     height: fit-content;
     /* background-image: url("../../Assets/Images/wp2015619-sales-wallpapers.jpg"); */
     background: linear-gradient(0deg,#f72585, rgb(199, 18, 103),rgba(199, 18, 103));
@@ -8,6 +9,7 @@
 
 }
 .footer{
+
     background-color:transparent;
     width: 100%;
     height: 100%;
@@ -107,7 +109,7 @@
 }
 
 .subjectLine {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
