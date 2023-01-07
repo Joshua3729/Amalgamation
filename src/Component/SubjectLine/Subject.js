@@ -1,5 +1,5 @@
 import classes from './Subject.module.css';
-import img7 from "../../Assets/Images/business5.jfif";
+import img7 from "../../Assets/Images/Clothing.jpg";
 // import CardItem from '../../Pages/WhatWeDo/Components/Card/CardItem';
 const Subject = (props) => {
   return (

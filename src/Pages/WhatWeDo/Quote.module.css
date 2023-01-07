@@ -14,8 +14,8 @@
   .section {
     /* text-align: center; */
     margin-inline: auto;
-    /*     
-      margin-bottom: 80px; */
+        
+      margin-bottom: 80px;
   
     width: 80%;
     /* display: grid;
@@ -32,28 +32,28 @@
     text-overflow: ellipsis;
   }
   .form {
-    background-color: #3C4048;
+    background-color: #003f5c;
     height: auto;
-    color: #000;
+    color: #fff;
     width: 50%;
     box-shadow: 1px 1px 5px black;
     border-radius: 5px;
     padding: 0.5rem;
   }
   .optional {
-    color: black;
+    color: #fff;
     display: flex;
   }
   .uploadsection {
-    color: #000; /* Fallback for older browsers */
-    color: rgba(0, 0, 0, 0.5);
+    color: #fff; /* Fallback for older browsers */
+    
     font-family: Arial, sans-serif;
     margin-top: 10px;
   }
   .para {
     margin-left: 4px;
-    color: #000; /* Fallback for older browsers */
-    color: rgba(0, 0, 0, 0.5);
+    color: #fff; /* Fallback for older browsers */
+   
     font-family: Arial, sans-serif;
   }
   .buttonSubmit1 {
@@ -122,7 +122,7 @@
     height: 2rem;
     border-width: 0;
     border-radius: 5px;
-    background-color: rgba(2, 2, 27, 0.025);
+    background-color: rgba(255, 255, 255, 0.2);
     color: grey;
     font-size: 1rem;
     width: 14rem;
@@ -130,6 +130,7 @@
   }
   .getQuote {
     text-align: center;
+    color:#ffff;
   }
   .formSubtitle {
     text-align: start;
@@ -137,6 +138,10 @@
     opacity: 0.7;
     font-size: 1.15rem;
     margin-top: 0.7rem;
+    
+  }
+  textarea{
+    background-color: rgba(255, 255, 255, 0.2);
   }
   .formTitle {
     color: rgb(2, 2, 27);
@@ -152,6 +157,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 10px;
   }
   .storyLine {
     color: #000;

@@ -1,8 +1,16 @@
 .OurServices{
-  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.wrapper{
+  margin-bottom: 80px;
 }
 .OurServices_header{
+  color: #000;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
   text-align: center;
+  margin-bottom: 10px;
 }
 .outerContainer{
 padding: 2px 2px;
@@ -22,6 +30,7 @@ justify-content: center;
     height: 90vh;
     /* position: absolute; */
   margin: 0;
+  margin-bottom: 80px;
     
   }
   .innerWrapper {
@@ -104,11 +113,12 @@ justify-content: center;
   align-self: start;
 }
 .title{
+  color: #000;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  font-weight: 700;
-  text-decoration: none;
+  margin-bottom: 10px;
 }
 .section2_image{
   background-size: 100%;
@@ -136,7 +146,7 @@ justify-content: center;
   
 }
 .carouselContainer {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 
 }
 .carouselContainer img{
@@ -144,12 +154,12 @@ justify-content: center;
   height: 250px;
 }
 .listItem {
-  /* border-radius: 3px;*/
+  border-radius: 3px;
   width: 10rem; 
   margin-bottom: 1.5rem;
 }
 .headingForRows {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin: 0px;
   padding: 0px;
