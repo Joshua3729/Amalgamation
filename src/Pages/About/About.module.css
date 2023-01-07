@@ -1,6 +1,7 @@
 
 .aboutUsWrapper{
     text-align: center;
+    margin-inline: auto;
 }
 .triangleButton{
     position: fixed;

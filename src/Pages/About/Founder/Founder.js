@@ -2,7 +2,6 @@ import React from 'react'
 import classes from "./Founder.module.css";
 import founder from '../../../Assets/Images/founder.jpg'
 import svg from '../../../Assets/Images/wave.svg'
-import svgTop from "../../../Assets/Images/waveT.svg";
 const Founder = () => {
   return (
     <div className={classes.founderWrapper}>
