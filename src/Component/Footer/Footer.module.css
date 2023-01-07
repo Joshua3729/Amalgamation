@@ -79,7 +79,7 @@
   bottom: 6px;
 }
 .divider {
-  border: 1px solid grey;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   width: 99%;
   margin-inline: auto;
   margin-top:1rem;
