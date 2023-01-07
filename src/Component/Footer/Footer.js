@@ -1,14 +1,18 @@
 import React from 'react'
 import classes from "./Footer.module.css";
-import facebook from "../../Assets/social-media/facebook.png";
-import linkedIn from "../../Assets/social-media/linkedin.png";
-import instagram from "../../Assets/social-media/instagram.png";
-import twitter from "../../Assets/social-media/twitter.png";
-import whatsapp from "../../Assets/social-media/whatsapp.png";
-import location from "../../Assets/Images/location.png";
-import phoneCall from "../../Assets/Images/call.png";
-import messageUs from "../../Assets/Images/message.png";
 import Logo1 from "../UI/Logo/Logo";
+import {
+  AiOutlineFacebook,
+  AiOutlineLinkedin,
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+  AiOutlineWhatsApp,
+  AiOutlineMessage,
+} from "react-icons/ai";
+import {GoLocation} from 'react-icons/go'
+import {BsTelephoneOutbound} from 'react-icons/bs'
+
+
 const Footer = () => {
   return (
     <div className={classes.Footer}>
@@ -19,7 +23,7 @@ const Footer = () => {
               <div className={classes.firstRow}>
                 <div>
                   <div className={classes.logo}>
-                    <Logo1/>
+                    <Logo1 />
                   </div>
 
                   <div className={classes.logoMessage}>
@@ -27,38 +31,33 @@ const Footer = () => {
                   </div>
                   <div className={classes.socialMedia}>
                     <a>
-                      <img
-                        src={facebook}
+                      <AiOutlineFacebook
                         className={classes.socialMediaIcons}
                         alt="facebook link"
                       />
                     </a>
                     <a>
-                      <img
-                        src={linkedIn}
+                      <AiOutlineLinkedin
                         className={classes.socialMediaIcons}
                         alt="facebook link"
                       />
                     </a>
                     <a>
-                      <img
-                        src={instagram}
+                      <AiOutlineInstagram
                         className={classes.socialMediaIcons}
                         alt="instagram link"
                       />
                     </a>
                     <a>
-                      <img
-                        src={twitter}
+                      <AiOutlineWhatsApp
                         className={classes.socialMediaIcons}
-                        alt="twitter link"
+                        alt="whatsapp link"
                       />
                     </a>
                     <a>
-                      <img
-                        src={whatsapp}
+                      <AiOutlineTwitter
                         className={classes.socialMediaIcons}
-                        alt="whatsapp link"
+                        alt="twitter link"
                       />
                     </a>
                   </div>
@@ -68,7 +67,9 @@ const Footer = () => {
                 <div className={classes.subjectLine}>location</div>
                 <div className={classes.location}>
                   <div className={classes.icons}>
-                    <img src={location} className={classes.iconsFooter} />
+                    <GoLocation
+                      className={classes.iconsFooter}
+                    />
                   </div>
 
                   <div>23 mandela unibell.</div>
@@ -78,14 +79,14 @@ const Footer = () => {
                 <div className={classes.subjectLine}>contact us</div>
                 <div className={classes.contactUs}>
                   <div className={classes.icons}>
-                    <img src={phoneCall} className={classes.iconsFooter}/>
+                    <BsTelephoneOutbound className={classes.iconsFooter} />
                   </div>
 
                   <div>(+27) 71 234 5679</div>
                 </div>
                 <div className={classes.contactUs}>
                   <div className={classes.icons}>
-                    <img src={messageUs} className={classes.iconsFooter} />
+                    <AiOutlineMessage className={classes.iconsFooter} />
                   </div>
 
                   <div>(+27) 71 234 5679</div>
@@ -94,7 +95,8 @@ const Footer = () => {
             </div>
             <div className={classes.divider}></div>
             <h1 className={classes.rights}>
-              ©Copyrights 2022 All rights reserved, Designed by NMCuts Boutique.
+              ©Copyrights 2022 All rights reserved, Designed by NMCuts
+              Amalgamation.
             </h1>
           </div>
         </div>
