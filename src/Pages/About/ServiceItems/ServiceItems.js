@@ -8,6 +8,22 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import furniture from "../../../Assets/Images/couch2.jpg";
 
+import boutique1 from "../../../Assets/Images/clothes1.jpeg";
+import boutique2 from "../../../Assets/Images/clothes2.jpeg";
+import boutique3 from "../../../Assets/Images/clothes3.jpeg";
+
+import catering1 from "../../../Assets/Images/catering.jpg";
+import catering2 from "../../../Assets/Images/catering3.jpg";
+import catering3 from "../../../Assets/Images/catering4.jpg";
+
+import transportation1 from "../../../Assets/Images/taxi.webp";
+import transportation2 from "../../../Assets/Images/transport.webp";
+import transportation3 from "../../../Assets/Images/taxi.webp";
+
+import furniture1 from "../../../Assets/Images/couch2.jpg";
+import furniture2 from "../../../Assets/Images/furniture3.jpeg";
+import furniture3 from "../../../Assets/Images/furniture4.jpeg";
+
 const ServiceItems = (props) => {
   const responsive = {
     desktop: {
@@ -65,28 +81,28 @@ const ServiceItems = (props) => {
             <ServiceDisplayCard
               subject="NM Cuts Boutique™"
               description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
-              image={clothes1}
+              images={[boutique1, boutique2, boutique3]}
             />
           </div>
           <div className={classes.eachItem}>
             <ServiceDisplayCard
               subject="NM Cuts Catering™"
               description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
-              image={catering}
+              images={[catering1, catering2, catering3]}
             />
           </div>
           <div className={classes.eachItem}>
             <ServiceDisplayCard
               subject="NM Tours Transportation™"
               description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
-              image={taxi}
+              images={[transportation1, transportation2, transportation3]}
             />
           </div>
           <div className={classes.eachItem}>
             <ServiceDisplayCard
               subject="NM Cuts Furniture™"
               description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
-              image={furniture}
+              images={[furniture1, furniture2, furniture3]}
             />
           </div>
         </Carousel>

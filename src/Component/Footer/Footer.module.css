@@ -3,10 +3,6 @@
     height: fit-content;
     /* background-image: url("../../Assets/Images/wp2015619-sales-wallpapers.jpg"); */
     background: linear-gradient(0deg,#f72585, rgb(199, 18, 103),rgba(199, 18, 103));
-    
-    
-    
-
 }
 .footer{
 
@@ -14,7 +10,6 @@
     width: 100%;
     height: 100%;
     /* backdrop-filter: blur(5px); */
- 
 }
 
 .innerDiv {
