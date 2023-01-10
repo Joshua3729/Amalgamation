@@ -1,12 +1,8 @@
 import React from "react";
 import classes from "./ServiceItems.module.css";
 import ServiceDisplayCard from "../../../Component/ServiceDisplayCard/ServiceDisplayCard";
-import clothes1 from "../../../Assets/Images/clothes1.jpeg";
-import catering from "../../../Assets/Images/catering3.jpg";
-import taxi from "../../../Assets/Images/taxi.webp";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import furniture from "../../../Assets/Images/couch2.jpg";
 
 import boutique1 from "../../../Assets/Images/clothes1.jpeg";
 import boutique2 from "../../../Assets/Images/clothes2.jpeg";
