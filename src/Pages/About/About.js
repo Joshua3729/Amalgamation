@@ -15,7 +15,7 @@ const About = () => {
         <div id="aboutUsSection1">
           <AboutUs />
         </div>
-        <div>
+        <div className={classes.ServiceItems}>
           <ServiceItems />
         </div>
         <div id="mission">

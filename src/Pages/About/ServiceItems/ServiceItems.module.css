@@ -2,6 +2,7 @@
   padding-block: 100px;
 }
 .items {
+  
 }
 .eachItem {
   width: fit-content;
@@ -13,4 +14,28 @@
   max-width: 1140px;
   display: block;
   margin: 0 auto;
+}
+.servicesContainer {
+  display: block;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 100px;
+  color: #1c2b33;
+  width: 90%;
+  margin-inline: auto;
+}
+.servicesContainer > h1 {
+  font-size: 30px;
+  width: 90%;
+  margin-inline: auto;
+  color: rgba(28, 43, 51);
+
+}
+
+.servicesContainer > P {
+  font-size: 20px;
+  width: 70%;
+  margin-inline: auto;
+  font-weight: 400;
+  color: rgb(28, 43, 51,.7);
 }

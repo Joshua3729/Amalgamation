@@ -4,8 +4,6 @@
     padding-bottom: 50px;
     height:fit-content;
     background-color: white;
-   
-
  }
 
  .contactContainer{
@@ -19,7 +17,7 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     gap: 50px;
  }
  .contactTextContainer{
@@ -30,6 +28,7 @@
     padding-block: 50px;
     padding-inline:30px;
     font-size: 20px;
+    /* margin-inline: auto; */
  }
 .contactContainer > form{
     border: 5px solid rgba(255, 255, 255, 0.5);
@@ -38,6 +37,7 @@
     gap: 30px;
     font-size: 20px;
     color: white;
+    background-color: rgba(255, 0, 0, 0.5);
 }
 .contactContainer > div{
     text-align: start;
@@ -52,7 +52,7 @@
  }
  .parallelInputs >input{
     max-width: 200px;
-    min-width: 100px;
+    /* min-width: 100px; */
     height: 35px;
     background-color: rgba(255, 255, 255, 0.2);
     text-decoration: none;
@@ -62,8 +62,16 @@
     color: white;
     
  }
+ .removeDefaultStyle {
+   resize: none;
+   border: none;
+   text-decoration: none;
+   outline: none;
+
+ }
  .parallelInputs{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
  }
  .loneInput{
@@ -71,8 +79,6 @@
     min-width: 100px;
     height: 35px;
     background-color: rgba(255, 255, 255, 0.2);
-    text-decoration: none;
-    border: none;
     backdrop-filter: blur(10px);
     font-size: 20px;
     color: white;
@@ -82,32 +88,11 @@
     max-height: 250px;
     min-height: 150px;
     background-color: rgba(255, 255, 255, .2);
-    resize: none;
-    border: none;
-    text-decoration: none;
+    
     
     backdrop-filter: blur(5px);
     font-size: 20px;
     color: white;
- }
- .textArea:focus{
-    resize: none;
-    border: none;
-    text-decoration: none;
-    outline: none;
- }
- .loneInput:focus{
-    resize: none;
-    border: none;
-    text-decoration: none;
-    outline: none;
- }
-
- .parallelInputs >input{
-    resize: none;
-    border: none;
-    text-decoration: none;
-    outline: none;
  }
  .buttonSubmit{
     font-size: 15px;
@@ -147,11 +132,13 @@
  }
  .iconsContainer{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% 30%;
     justify-content: start;
     gap: 30px;
     row-gap: 0px;
     font-size: 15px;
+    padding: 5px;
+    justify-content: center;
  }
 
  @keyframes iconAnimation {
@@ -169,8 +156,8 @@
     
  }
 
- .iconsContainer>div{
-    width: 100px;
+ .iconsContainer > div {
+    max-width: 100px;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     padding: 10px;

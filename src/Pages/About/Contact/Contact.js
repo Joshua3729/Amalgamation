@@ -66,16 +66,24 @@ const Contact = () => {
             />
           </div>
           <div className={classes.parallelInputs}>
-            <input value={""} placeholder={"Name(s)"}></input>
-            <input value={""} placeholder={"Email"}></input>
+            <input
+              value={""}
+              placeholder={"Name(s)"}
+              className={classes.removeDefaultStyle}
+            ></input>
+            <input
+              value={""}
+              placeholder={"Email"}
+              className={classes.removeDefaultStyle}
+            ></input>
           </div>
           <input
             value={""}
-            className={classes.loneInput}
+            className={[classes.loneInput, classes.removeDefaultStyle].join(" ")}
             placeholder={"Subject"}
           ></input>
           <textarea
-            className={classes.textArea}
+            className={[classes.textArea, classes.removeDefaultStyle].join(" ")}
             placeholder={"Message"}
           ></textarea>
           <button type="submit" className={classes.buttonSubmit}>

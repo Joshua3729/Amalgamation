@@ -39,71 +39,88 @@ const ServiceItems = (props) => {
     },
   };
   return (
-    <div className={classes.ServiceItems}>
-      <div className={classes.innerWrapper}>
-        <Carousel
-          swipeable={false}
-          draggable={false}
-          // showDots={true}
-          responsive={responsive}
-          ssr={true} // means to render carousel on server-side.
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={3000}
-          keyBoardControl={true}
-          // partialVisible
-          pauseOnHover
-          minimumTouchDrag={80}
-          additionalTransfrom={0}
-          // arrows
-          centerMode={false}
-          className=""
-          containerClass="container"
-          dotListClass=""
-          focusOnSelect={false}
-          itemClass={classes.items}
-          renderArrowsWhenDisabled={false}
-          renderButtonGroupOutside={false}
-          renderDotsOutside={false}
-          // customTransition="all .5"
-          transitionDuration={1000}
-          // containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
-          deviceType={"desktop"}
-          sliderClass=""
-          slidesToSlide={1}
-        >
-          <div className={classes.eachItem}>
-            <ServiceDisplayCard
-              subject="NM Cuts Boutique™"
-              description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
-              images={[boutique1, boutique2, boutique3]}
-            />
-          </div>
-          <div className={classes.eachItem}>
-            <ServiceDisplayCard
-              subject="NM Cuts Catering™"
-              description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
-              images={[catering1, catering2, catering3]}
-            />
-          </div>
-          <div className={classes.eachItem}>
-            <ServiceDisplayCard
-              subject="NM Tours Transportation™"
-              description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
-              images={[transportation1, transportation2, transportation3]}
-            />
-          </div>
-          <div className={classes.eachItem}>
-            <ServiceDisplayCard
-              subject="NM Cuts Furniture™"
-              description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
-              images={[furniture1, furniture2, furniture3]}
-            />
-          </div>
-        </Carousel>
+    <>
+      <div>
+        <div className={classes.servicesContainer}>
+          <h1>Lorem Ipsum dolor sit amet, consectetur adipiscing elit .</h1>
+
+          <p>
+            Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
-    </div>
+      <div className={classes.ServiceItems}>
+        <div className={classes.innerWrapper}>
+          <Carousel
+            swipeable={false}
+            draggable={false}
+            // showDots={true}
+            responsive={responsive}
+            ssr={true} // means to render carousel on server-side.
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed={3000}
+            keyBoardControl={true}
+            // partialVisible
+            pauseOnHover
+            minimumTouchDrag={80}
+            additionalTransfrom={0}
+            // arrows
+            centerMode={false}
+            className=""
+            containerClass="container"
+            dotListClass=""
+            focusOnSelect={false}
+            itemClass={classes.items}
+            renderArrowsWhenDisabled={false}
+            renderButtonGroupOutside={false}
+            renderDotsOutside={false}
+            // customTransition="all .5"
+            transitionDuration={1000}
+            // containerClass="carousel-container"
+            removeArrowOnDeviceType={["tablet", "mobile"]}
+            deviceType={"desktop"}
+            sliderClass=""
+            slidesToSlide={1}
+          >
+            <div className={classes.eachItem}>
+              <ServiceDisplayCard
+                subject="NM Cuts Boutique™"
+                description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
+                images={[boutique1, boutique2, boutique3]}
+              />
+            </div>
+            <div className={classes.eachItem}>
+              <ServiceDisplayCard
+                subject="NM Cuts Catering™"
+                description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
+                images={[catering1, catering2, catering3]}
+              />
+            </div>
+            <div className={classes.eachItem}>
+              <ServiceDisplayCard
+                subject="NM Tours Transportation™"
+                description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
+                images={[transportation1, transportation2, transportation3]}
+              />
+            </div>
+            <div className={classes.eachItem}>
+              <ServiceDisplayCard
+                subject="NM Cuts Furniture™"
+                description="Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua."
+                images={[furniture1, furniture2, furniture3]}
+              />
+            </div>
+          </Carousel>
+        </div>
+      </div>
+    </>
   );
 };
 

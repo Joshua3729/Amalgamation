@@ -7,7 +7,7 @@
     position: fixed;
     bottom: 20px;
     right: 25px;
-    color: #1c2b33;
+    color: steelblue;
     cursor: pointer;
     
 }
@@ -17,7 +17,11 @@
     width: 100%;
     margin-top: 20vh;
 } */
-
+.ServiceItems {
+    /* margin-top:20px; */
+    contain: layout;
+    position: relative;
+}
 
 
 

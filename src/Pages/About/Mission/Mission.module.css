@@ -24,9 +24,42 @@
   width: calc(50% - 50px);
   margin-right: 50px;
 }
+
 .imageWrapper img {
   width: 100%;
 }
 .header {
   text-align: left;
+}
+@media screen and (max-width: 700px) {
+
+  .innerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .imageWrapper  img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .imageWrapper {
+    width: 80%;
+  }
+  .innerWrapper > * {
+    margin-inline: auto;
+    
+  }
+
+  .missionContainer > h1 {
+    font-size: 20px;
+  }
+  .missionContainer > p {
+    font-size: 15px;
+    
+  }
+  .missionContainer {
+    width: 90%;
+  }
+  
 }

@@ -10,10 +10,15 @@
   background-repeat: no-repeat;
 }
 .innerSectionWrapper {
-  position: relative;
   max-width: 1140px;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.innerSectionWrapper > div {
+  
 }
 .backdrop {
   position: absolute;
@@ -36,12 +41,8 @@
 }
 .textWrapper {
   width: 40%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 5%;
   color: white;
-  padding: 20px;
+  padding-inline: 20px;
 }
 .textWrapper > h1 {
   width: fit-content;
@@ -67,11 +68,13 @@
 }
 .innerNavWrapper {
   width: fit-content;
-  position: absolute;
+  height: fit-content;
+  /* position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 200px;
-  right: 5%;
+  right: 5%; */
+  max-width: 200px;
+  
   color: white;
   padding: 10px;
   display: grid;
@@ -91,7 +94,7 @@
 .navList {
   width: fit-content;
   list-style-type: none;
-  font-weight: 400;
+  font-weight: 400; 
 }
 .navList > div {
   width: fit-content;
@@ -112,30 +115,7 @@
   animation-duration: 0.5s;
   bottom: 5px;
 }
-.servicesContainer {
-  display: block;
-  max-width: 1140px;
-  margin: 0 auto;
-  margin-top: 100px;
-  color: #1c2b33;
-  width: 90%;
-  margin-inline: auto;
-}
-.servicesContainer > h1 {
-  font-size: 30px;
-  width: 90%;
-  margin-inline: auto;
-  color: rgba(28, 43, 51);
 
-}
-
-.servicesContainer > P {
-  font-size: 20px;
-  width: 70%;
-  margin-inline: auto;
-  font-weight: 400;
-  color: rgb(28, 43, 51,.7);
-}
 .displayImages {
   width: 95%;
   padding-block: 50px;
@@ -144,3 +124,43 @@
   grid-template-columns: auto auto auto;
   gap: auto;
 }
+.wrapper {
+  display: flex;
+  height: fit-content;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* background-color: yellow; */
+
+}
+.wrapper > div {
+  flex: 1;
+}
+@media screen and (max-width: 400px){
+    .textWrapper > h1 {
+      font-size: 10px;
+    }
+    .textWrapper > p {
+      font-size: 10px;
+    }
+
+    .discoverMoreButton {
+      width: fit-content;
+      padding: 5px 10px;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      gap:3px;
+      font-size: 8px;
+    }
+
+    .navHeader {
+      font-size: 10px;
+    }
+    .navList {
+      font-size: 10px;
+    }
+    .AboutUsSection1 {
+      height: 20vh;
+    }
+  }

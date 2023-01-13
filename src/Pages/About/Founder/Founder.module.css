@@ -11,14 +11,14 @@
 .founderContainer {
   margin-inline: auto;
   display: grid;
-  grid-template-columns: auto min-content;
+  grid-template-columns: 60% 40%;
   text-align: start;
   justify-content: end;
-  /* gap: 50px; */
   gap: auto;
   box-shadow: 1px 1px 20px 1px rgba(237, 2, 139, 0.2);
 }
 .founderContainer > div {
+  
 }
 .founderTextContainer {
   width: 80%;
@@ -26,17 +26,22 @@
   font-size: 20px;
   text-align: start;
   margin-inline: auto;
+  padding-bottom: 100px;
 }
 .founderTextContainer > h1 {
   color: #1c2b33;
+  font-size: 25px;
 }
+.founderTextContainer > p {
+  font-size: 18px;
+}
+
 .founderImageContainer {
   width: fit-content;
-  contain: content;
 }
 .founderImage {
   /* max-height: 550px; */
-  max-width: 400px;
+  width: 100%;
 }
 
 .founderSubjectContainer {
@@ -74,8 +79,7 @@
   margin-bottom: 50px;
 }
 .foundedCard {
-  max-width: 1140px;
-  width: 100%;
+  width: 90%;
   height: 150px;
   color: #1c2b33;
   position: absolute;
@@ -90,16 +94,51 @@
 .foundedCard > div {
   font-weight: bold;
   height: fit-content;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   font-size: 15px;
+  width: 100%;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
+
+    .founderInnerWrapper {
+      width: 95%;
+    }
+    
+    .foundedCard {
+      height: 80px;
+    }
+
     .founderSubjectLine {
-      font-size: 50px;
+      font-size: 70px;
     }
     .founderMiniSubject {
-      font-size: 15px;
+      font-size: 25px;
     }
+    .AiOutlineRight {
+      size: 20;
+    }
+
+    .founderMiniSubject {
+      right: 15%;
+    }
+    .founderContainer {
+      
+      display: flex;
+      flex-direction: column-reverse;
+      
+    }
+
+    /* .founderTextContainer > h1 {
+      font-size: 15px ;
+    }
+    .founderTextContainer > p {
+      font-size: 12px;
+    } */
+    
   }
+  
+
+    
+  
