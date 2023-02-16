@@ -1,7 +1,5 @@
 
 *{
-  max-width: 1450px;
-  margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
@@ -26,11 +24,10 @@
 .outerContainer{
 padding: 2px 2px;
   background-color:#85586F ;
-  /* height: 400px; */
+
 }
 .firstSection{
 background-color: #fff;
-/* height: 150px; */
 width: 400px;
 max-width: 1140px;
 align-items: center;
@@ -39,7 +36,6 @@ justify-content: center;
 }
 .section1Parent {
     height: 90vh;
-    /* position: absolute; */
   margin: 0;
   margin-bottom: 80px;
     
@@ -216,9 +212,7 @@ justify-content: center;
 }
 .OurServices_header {
   font-size: 26px;
-
   color: #1c2b33;
-  /* background-color: aqua; */
 }
 
 /* media queries */
