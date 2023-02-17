@@ -18,29 +18,7 @@ h2{
 h2 b{
     color: #ED028B;
 }
-.question:hover{
-    overflow: visible;
-}
 
-.question{
-     font-size: 30px;
-    color:#c5de0e;
-    font-weight: 700;
-    white-space: nowrap;
-    
- /* width: 200px;
-  border: 1px solid #000000;
-  overflow: hidden;
-  text-overflow: clip; */
-  white-space: nowrap;
-  width: 200px;
-  border: 1px solid #000000;
-  overflow: hidden;
-  text-overflow: ellipsis;
-    
-   
-    width: fit-content;
-}
 .text{
     margin-left: 10px;
     color:#090909;
@@ -52,9 +30,7 @@ width: 250px;
 height: 180px;
 margin-left: 50px;
 }
-.text p{
 
-}
 .text button{
     background-color: #ED028B; 
     border: none;
@@ -63,10 +39,8 @@ margin-left: 50px;
      margin-left:16px;
     font-size: medium;
     font-weight: 600;
-  
-   
- 
 }
+
 .flexDiv{
     max-width: 1140px;
     display: grid;
@@ -74,21 +48,6 @@ margin-left: 50px;
     grid-gap: 10px;
   padding: 10px;
 }
-/* .smallText{
-    background-color: #fff;
-    height: 350px;
-    width: 700px;
-    max-width: 1140px;
-   
-    align-items: center;
-    justify-content: center;
-
-
- 
-    margin-top: 100px;
-    text-align: center;
-    margin-left: auto; 
-} */
 
 
 

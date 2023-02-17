@@ -1,12 +1,9 @@
 import classes from './Subject.module.css';
 import img7 from "../../Assets/Images/Clothing.jpg";
-// import CardItem from '../../Pages/WhatWeDo/Components/Card/CardItem';
 const Subject = (props) => {
   return (
     <>
-      <div className={classes.SubjectComponent}>
-        {/* <div className={classes.question}>{props.Subject} </div> */}
-        {/* <div className={classes.smallText}> */}
+      <div className={classes.SubjectComponent}> 
         <h2>NM amalgeted|<b>Group PTY LTD</b></h2>
           <div className={classes.flexDiv}>
        
@@ -24,7 +21,7 @@ const Subject = (props) => {
           </div>
           </div>
           </div>
-      {/* </div> */}
+     
     </>
   );
 }

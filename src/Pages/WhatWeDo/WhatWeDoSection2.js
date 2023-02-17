@@ -13,7 +13,7 @@ const  WhatWeDoSection2 = () => {
     <div className={classes.OurServices}>
       <div className={classes.OurServices_innerWrapper}>
         <div className={classes.headerWrapper}>
-          <h1 className={classes.OurServices_header}> Services/Products</h1>
+          <h1 className={classes.title}> Services/Products</h1>
         </div>
         <div className={classes.gridWrapper}>
           <div className={classes.gridBuffer}></div>
